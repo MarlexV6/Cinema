@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/SCSS/P2PC.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <div class="movie">
+        
+    <div>
+        <h1 class="name"></h1>
+        <p class="age"></p>
+    </div>
+
+    <div class="bib">
+        <img class="image">
+
+        <div class="descript">
+            
+            <p class="description"></p>
+            <p class="tags"></p>
+            <p class="time"></p>
+        </div>
+
+    </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const params = new URLSearchParams(window.location.search);
+        const nameURL = decodeURIComponent(params.get('name'));
+        const ageURL = decodeURIComponent(params.get('age'));
+        const imageURL = decodeURIComponent(params.get('image'));
+        const tagsURL = decodeURIComponent(params.get('tags'));
+        const descriptURL = decodeURIComponent(params.get('description'));
+        const timeURL = decodeURIComponent(params.get('time'));
+    document.querySelector('.name').textContent = nameURL;
+    document.querySelector('.age').textContent = ageURL;
+    document.querySelector('.image').src = imageURL;
+    document.querySelector('.tags').textContent = tagsURL;
+    document.querySelector('.description').textContent = descriptURL;
+    document.querySelector('.time').textContent = timeURL;
+    document.title = nameURL;
+    });
+    </script>
+</body>
+</html>

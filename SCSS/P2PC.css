@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url(../Fonts/DelaGothicOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Kumar One";
+  src: url(../Fonts/KumarOne-Regular.ttf);
+}
+body {
+  background-color: #323232;
+}
+
+.movie {
+  margin: auto;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+}
+.movie div {
+  text-align: center;
+}
+.movie div .name {
+  font-family: Dela Gothic One;
+  color: white;
+  font-weight: lighter;
+}
+.movie div .age {
+  font-family: Kumar One;
+  color: grey;
+}
+.movie .image {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+.movie .bib {
+  display: flex;
+  align-items: center;
+  font-family: Kumar One;
+  gap: 50px;
+  justify-content: space-around;
+  background-color: rgb(61, 59, 59);
+  box-sizing: padding-box;
+}
+.movie .bib .descript {
+  text-align: left;
+  color: white;
+}
+.movie .bib .descript .description {
+  margin-bottom: 40px;
+}
+.movie .bib .descript .time {
+  color: grey;
+  font-size: 15px;
+}
+.movie .bib .descript .tags {
+  color: grey;
+  font-size: 15px;
+}/*# sourceMappingURL=P2PC.css.map */
