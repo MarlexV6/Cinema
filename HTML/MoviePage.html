@@ -7,6 +7,14 @@
     <title></title>
 </head>
 <body>
+
+    <header>
+        <ul class="floating-menu">
+            <li><a href="Main.html">Главная</a></li>
+            <li><a href="All_movies.html">Все фильмы</a></li>
+            <li>Инфо</li>
+        </ul>
+    </header>
     <div class="movie">
         
     <div>
@@ -23,7 +31,13 @@
             <p class="tags"></p>
             <p class="time"></p>
         </div>
+    </div>
+    <a class="trailer"></a>
 
+    <div>
+        <div id="cinemas">
+
+        </div>
     </div>
     </div>
     <script>
@@ -35,12 +49,16 @@
         const tagsURL = decodeURIComponent(params.get('tags'));
         const descriptURL = decodeURIComponent(params.get('description'));
         const timeURL = decodeURIComponent(params.get('time'));
+        const linkURL = decodeURIComponent(params.get('trailer'))
+            
     document.querySelector('.name').textContent = nameURL;
     document.querySelector('.age').textContent = ageURL;
     document.querySelector('.image').src = imageURL;
     document.querySelector('.tags').textContent = tagsURL;
     document.querySelector('.description').textContent = descriptURL;
     document.querySelector('.time').textContent = timeURL;
+    const bingus = document.querySelector('.trailer');
+    bingus.innerHTML = `<iframe ${linkURL}></iframe>`;
     document.title = nameURL;
     });
     </script>

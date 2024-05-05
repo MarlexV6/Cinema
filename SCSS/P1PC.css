@@ -24,6 +24,9 @@ body .cont {
   display: flex;
   align-items: center;
 }
+body .quick-menu {
+  display: none;
+}
 
 .info {
   background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
@@ -48,13 +51,30 @@ body .cont {
   border: none;
 }
 
-#next-slide-button {
-  right: 0;
-}
-
 .galery {
   width: 100%;
   height: 700px;
+}
+.galery #next-slide-button {
+  transition: all 0.2s ease-out;
+  margin-top: 200px;
+  margin-right: 50px;
+  right: 0;
+}
+.galery #prev-slide-button {
+  transition: all 0.2s ease-out;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+.galery #next-slide-button:hover {
+  color: white;
+  background: black;
+  transition: all 0.2s ease-out;
+}
+.galery #prev-slide-button:hover {
+  color: white;
+  background: black;
+  transition: all 0.2s ease-out;
 }
 .galery button {
   position: absolute;
@@ -67,13 +87,14 @@ body .cont {
   cursor: pointer;
 }
 .galery .carousel {
-  display: flex;
+  display: inline-block;
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
   width: 100%;
   border: none;
   aspect-ratio: 10/3;
+  position: absolute; /* Добавляем абсолютное позиционирование */
 }
 .galery .carousel div .carousel-slide {
   width: 100%;
@@ -86,6 +107,13 @@ body .cont {
   transition: transform 0.5s ease-in-out;
   position: absolute; /* Добавляем абсолютное позиционирование */
   left: 0; /* Устанавливаем начальное положение */
+}
+.galery .carousel .carousel-slide .info {
+  height: 180px;
+  margin-bottom: 0;
+}
+.galery .carousel .carousel-slide img {
+  top: 0;
 }
 
 h1 {
@@ -152,7 +180,13 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  transition: all 0.2s ease-out;
   color: white;
+}
+#moviesContainer a:hover {
+  transition: all 0.2s ease-out;
+  background-color: white;
+  color: black;
 }
 
 header .floating-menu {
@@ -186,6 +220,8 @@ header .floating-menu li {
 
 footer {
   text-align: center;
+  background-color: rgb(63, 63, 63);
+  margin-bottom: 0;
 }
 
 #moviesContainer div {

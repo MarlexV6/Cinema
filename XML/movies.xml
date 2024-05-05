@@ -3,6 +3,7 @@
     <movie>
         <age>12+</age>
         <image>/Pictures/100.jpeg</image>
+        <altimage></altimage>
         <name>100 лет тому вперёд</name>
         <tags>Семейный, фантастика, приключения</tags>
         <description>Они живут в разных мирах. Коля Герасимов — в сегодняшней Москве, Алиса Селезнева — на сто лет позже. 
@@ -10,12 +11,13 @@
         Встреча Алисы и Коли станет началом невероятных приключений, 
         в которых нашим героям предстоит отвоевать у космических пиратов Вселенную, восстановить ход времени и обрести самое дорогое: любовь и дружбу.</description>
         <time>Длительность: 142 мин. / 02:22</time>
-        <trailer>https://www.youtube.com/watch?v=mXBPVpJfCxo</trailer>
+        <trailer>https://youtu.be/EfUNm8Jumkc?si=u8YFAnN29cvTdVUH</trailer>
     </movie>
 
     <movie>
         <age>12+</age>
         <image>/Pictures/Dune.jpeg</image>
+        <altimage>/Pictures/film-godzilla-i-kong-novaya-imperiya-2024_1712398807868590834.jpg</altimage>
         <name>Дюна: Часть вторая</name>
         <tags>боевик, драма, фантастика, приключения</tags>
         <description>Наследник знаменитого дома Атрейдесов Пол отправляется вместе с семьей на одну из самых опасных планет во Вселенной — Арракис. 
@@ -29,57 +31,62 @@
     <movie>
         <age>18+</age>
         <image>/Pictures/Empire.jpeg</image>
+        <altimage></altimage>
         <name>Падение империи</name>
         <tags>боевик, драма</tags>
         <description>Национальная гвардия Калифорнии и Техаса при поддержке боевой техники и авиации штурмуют столицу. 
         Белый дом вот-вот падет. Группа журналистов пытается добраться до пылающего Вашингтона, чтобы взять последнее интервью у президента некогда Соединенных Штатов Америки. 
         Но в стране, где царит хаос, нет ничего дороже литра бензина и ничего дешевле, чем человеческая жизнь.</description>
         <time>Длительность: 109 мин. / 01:49</time>
-        <trailer>https://www.youtube.com/watch?v=MczFU2xe_P0</trailer>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/MczFU2xe_P0?si=w0EIFI9dy-cmGHZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 
     <movie>
         <age>6+</age>
         <image>/Pictures/Woody.jpeg</image>
+        <altimage></altimage>
         <name>Вуди Вудпекер отправляется в лагерь</name>
         <tags>Комедия, фэнтези, приключения</tags>
         <description>Неугомонного дятла Вуди выгоняют из родного леса, и теперь он должен найти себе новый дом, в котором мог бы жить с комфортом. 
         Вскоре он попадает в лагерь Ву-Ху — казалось бы, идеальное место, чтобы обосноваться. 
         Вуди уверен, что теперь именно здесь будет его дом. Однако очень скоро выясняется, что лагерь под угрозой закрытия, и виной тому некий инспектор.</description>
         <time>Длительность: 100 мин. / 01:40</time>
-        <trailer></trailer>
+        <trailer>https://youtu.be/ELrLaCFYp4k?si=PkdbLPvxs1KoJHnH</trailer>
     </movie>
     
     <movie>
         <age>12+</age>
         <image>/Pictures/Panda.jpeg</image>
+        <altimage></altimage>
         <name>Кунг-фу панда 4</name>
         <tags>Комедия, мультфильм, приключения</tags>
         <description>Продолжение приключений легендарного воина По, его верных друзей и наставника.</description>
         <time>Длительность: 94 мин. / 01:34</time>
-        <trailer></trailer>
+        <trailer>https://youtu.be/2mkuxoGG43w?si=Siuu3tXwc03jr5_s</trailer>
     </movie>
 
     <movie>
         <age>6+</age>
         <image>/Pictures/PandaChina.jpeg</image>
+        <altimage></altimage>
         <name>Приключения панды</name>
         <tags>Комедия, мультфильм, приключения</tags>
         <description>Юный, но отважный панда по имени Пан отправляется в Африку, чтобы спасти свою лучшую подругу — дракона Цзелун. 
         Теперь его ждёт захватывающее путешествие в удивительный для него мир гор, пустынь и джунглей. 
         Полагаясь на свой ум, доброту и находчивость, он заведёт множество новых друзей среди местных обитателей, ведь у храбрости нет размера, а настоящая дружба не знает преград.</description>
         <time>Длительность: 84 мин. / 01:24</time>
-        <trailer></trailer>
+        <trailer>https://youtu.be/4Can4mvxJsU?si=UWvEcCVc0jAFuXo3</trailer>
     </movie>
 
 
      <movie>
         <age>12+</age>
         <image>/Pictures/Kong.jpeg</image>
+        <altimage>/Pictures/maxresdefault.jpg</altimage>
         <name>Годзилла-Конг: Новая империя</name>
         <tags>боевик, фантастика</tags>
         <description>Эпическая битва продолжается! В этот раз новая невиданная сила противостоит могущественному Конгу и бесстрашному Годзилле и угрожает их существованию и… существованию мира.</description>
         <time>Длительность: 115 мин. / 01:55</time>
-        <trailer></trailer>
+        <trailer>https://youtu.be/mXBPVpJfCxo?si=PRJ3Rp5vc_9BmkBD</trailer>
     </movie>
 </movies>

@@ -10,9 +10,41 @@
  
 
 
-body{background-color: #323232;}
+body{background-color: #323232; margin: 0;
+  header{
+    .floating-menu {
+    width: 600px;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+
+    display: flex; justify-content: space-around; justify-content: space-around; 
+    
+     position: fixed;
+     background: linear-gradient(white, black);
+    
+      border-radius: 5px; /* rounded corners */
+      right: calc(50% - 300px);
+      z-index: 1000; /* make sure the menu is on top of other elements */
+    
+        li{display: flex;
+          flex-wrap: wrap; 
+          font-family: Kumar One;
+          justify-content: 
+          space-between;
+          text-align: center;
+          background-color: #C3A3A3;
+          width: 120px;
+          height: 20px;
+          margin: auto;
+          vertical-align: top;
+          justify-content: center;
+          align-items: center;
+    }}
+    
+    }}
 .movie
-{   
+{       padding-top: 50px;
     margin: auto;
     display: flex;
     width: 60%;
@@ -29,5 +61,6 @@ body{background-color: #323232;}
     .descript{text-align: left; color: white; .description{margin-bottom: 40px;}
     .time{color: grey; font-size: 15px;}
     .tags{color: grey; font-size: 15px;}}}
+
    
 }
