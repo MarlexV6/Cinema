@@ -13,7 +13,7 @@ function loadXML(url) {
                     tags: item.querySelector('tags').textContent,
                     description: item.querySelector('description').textContent,
                     time: item.querySelector('time').textContent,
-                    trailer: item.querySelector('trailer').textContents
+                    trailer: item.querySelector('trailer').attributes
 
                 };
             });
