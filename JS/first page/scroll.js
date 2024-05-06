@@ -12,7 +12,8 @@ function loadXML(url) {
                     name: item.querySelector('name').textContent,
                     tags: item.querySelector('tags').textContent,
                     description: item.querySelector('description').textContent,
-                    time: item.querySelector('time').textContent
+                    time: item.querySelector('time').textContent,
+                    time:item.querySelector('date').textContent
                 };
             });
             return items;
@@ -35,7 +36,8 @@ function addItemsToDOM(items) {
             &image=${encodeURIComponent(item.image)}
             &tags=${encodeURIComponent(item.tags)}
             &description=${encodeURIComponent(item.description)}
-            &time=${encodeURIComponent(item.time)}">Купить билет</a>
+            &time=${encodeURIComponent(item.time)}
+            &date=${encodeURIComponent(item.time)}">Купить билет</a>
         `;
         itemsList.appendChild(itemDiv);
         
@@ -53,9 +55,4 @@ document.addEventListener('DOMContentLoaded', function()
     .then(items => addItemsToDOM(items))
     .catch(error => console.error('Ошибка при загрузке XML:', error));
 });
-
-
-
-
-
 

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Dela Gothic One";
   src: url(../Fonts/DelaGothicOne-Regular.ttf);
@@ -13,17 +12,9 @@
   list-style-type: none;
 }
 
-html {
-  background-color: #323232;
-}
-
 body {
+  background-color: #323232;
   margin: 0;
-}
-body .cont {
-  display: flex;
-  align-items: center;
-  padding: 0;
 }
 body #quick-menu {
   position: absolute;
@@ -78,6 +69,7 @@ body #heading .floating-menu {
   width: 100%;
   height: 1000px;
   margin: auto;
+  margin-left: 0;
   padding: 0;
   display: block;
   justify-content: center;
@@ -104,112 +96,16 @@ body #heading .floating-menu li {
 body #heading .floating-menu li a {
   color: black;
 }
-
-.info {
-  background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
-  z-index: 10;
-  position: absolute;
-  width: 100%;
+body svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  background: radial-gradient white, black;
+  border-radius: 90px/50px;
+  display: block;
+  margin: auto;
 }
-
-.carousel-slide img {
-  width: 100%;
-  height: 500px;
-}
-
-.carousel-slide div img {
-  width: 100%;
-}
-
-.carousel-slide div {
-  border: none;
-}
-
-.galery {
-  width: 100%;
-  height: 500px;
-}
-.galery #next-slide-button {
-  transition: all 0.2s ease-out;
-  margin-top: 200px;
-  margin-right: 50px;
-  right: 0;
-}
-.galery #prev-slide-button {
-  transition: all 0.2s ease-out;
-  margin-top: 200px;
-  margin-left: 50px;
-}
-.galery #next-slide-button:hover {
-  color: white;
-  background: black;
-  transition: all 0.2s ease-out;
-}
-.galery #prev-slide-button:hover {
-  color: white;
-  background: black;
-  transition: all 0.2s ease-out;
-}
-.galery button {
-  position: absolute;
-  z-index: 2;
-  height: 117px;
-  border-radius: 50px;
-  aspect-ratio: 10/30;
-  background: rgba(0, 0, 0, 0.105);
-  border: none;
-  cursor: pointer;
-}
-.galery .carousel {
-  display: inline-block;
-  align-items: center;
-  flex-wrap: wrap;
-  overflow: hidden;
-  width: 100%;
-  border: none;
-  aspect-ratio: 10/3;
-  height: 600px;
-  position: absolute; /* Добавляем абсолютное позиционирование */
-}
-.galery .carousel div .carousel-slide {
-  width: 100%;
-}
-.galery .carousel .carousel-slide {
-  display: flex;
-  background-color: white;
-  flex: 0 0 100%;
-  width: 100%;
-  color: white;
-  transition: transform 0.5s ease-in-out;
-  position: absolute; /* Добавляем абсолютное позиционирование */
-  left: 0; /* Устанавливаем начальное положение */
-}
-.galery .carousel .carousel-slide .info {
-  height: 160px;
-  bottom: 0;
-  padding-left: 50px;
-}
-.galery .carousel .carousel-slide .info a {
-  background-color: black;
-  width: 500px;
-  border: 4px solid red;
-  color: white;
-  border-radius: 90px;
-  font-family: Kumar One;
-}
-.galery .carousel .carousel-slide img {
-  top: 0;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border-top: white solid 1px;
-  border-bottom: white solid 1px;
-  color: white;
-}
-
-#moviesContainer {
+body #moviesContainer {
   width: 100%;
   display: flex;
   align-items: start;
@@ -218,23 +114,23 @@ h1 {
   overflow: scroll;
   width: 100%;
 }
-#moviesContainer .movie {
+body #moviesContainer .movie {
   width: 200px;
   margin: 60px;
   text-align: center;
   box-sizing: border-box;
   transform: translate(0);
 }
-#moviesContainer .movie img {
+body #moviesContainer .movie img {
   width: 200px;
   height: 300px;
   border-radius: 20px;
 }
-#moviesContainer .movie h3 {
+body #moviesContainer .movie h3 {
   height: 5px;
   color: grey;
 }
-#moviesContainer .movie h2 {
+body #moviesContainer .movie h2 {
   font-family: Dela Gothic One;
   color: rgb(240, 240, 240);
   font-size: 18px;
@@ -242,13 +138,13 @@ h1 {
   height: 40px;
   font-weight: lighter;
 }
-#moviesContainer .movie p {
+body #moviesContainer .movie p {
   font-family: Kumar One;
   height: 40px;
   margin-bottom: 30px;
   color: grey;
 }
-#moviesContainer .movie div {
+body #moviesContainer .movie div {
   color: white;
   margin: auto;
   border: 4px solid red;
@@ -256,7 +152,7 @@ h1 {
   height: 40px;
   padding-top: 5px;
 }
-#moviesContainer .movie a {
+body #moviesContainer .movie a {
   background-color: black;
   border: 4px solid red;
   display: flex;
@@ -268,28 +164,112 @@ h1 {
   transition: all 0.2s ease-out;
   color: white;
 }
-#moviesContainer a:hover {
+body #moviesContainer a:hover {
   transition: all 0.2s ease-out;
   background-color: white;
   color: black;
 }
-
-svg {
+body header {
+  top: 0;
+}
+body header a {
+  position: fixed;
+  z-index: 99;
+}
+body header a svg {
   width: 160px;
   height: 50px;
-  position: static;
-  background: radial-gradient white, black;
+  position: absolute;
+  margin-left: 200px;
+  background: radial-gradient(white, black);
   border-radius: 90px/50px;
-  display: block;
-  margin: auto;
 }
-
-footer {
+body header .floating-menu {
+  width: 600px;
+  height: 50px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-around;
+  position: fixed;
+  background: linear-gradient(white, black);
+  border-radius: 5px; /* rounded corners */
+  right: calc(50% - 300px);
+  z-index: 1000; /* make sure the menu is on top of other elements */
+}
+body header .floating-menu li {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Kumar One;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #C3A3A3;
+  width: 120px;
+  height: 20px;
+  margin: auto;
+  vertical-align: top;
+  justify-content: center;
+  align-items: center;
+}
+body header .floating-menu li a {
+  color: black;
+}
+body footer {
   text-align: center;
   background-color: rgb(63, 63, 63);
   margin-bottom: 0;
 }
-
-#moviesContainer div {
-  display: inline-block;
-}/*# sourceMappingURL=P1M.css.map */
+body .movie {
+  padding-top: 50px;
+  margin: auto;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+}
+body .movie div {
+  text-align: center;
+}
+body .movie div .name {
+  font-family: Dela Gothic One;
+  color: white;
+  font-weight: lighter;
+}
+body .movie div .age {
+  font-family: Kumar One;
+  color: grey;
+}
+body .movie .image {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+body .movie .bib {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Kumar One;
+  gap: 50px;
+  justify-content: space-around;
+  background-color: rgb(61, 59, 59);
+  box-sizing: padding-box;
+}
+body .movie .bib .descript {
+  text-align: left;
+  color: white;
+}
+body .movie .bib .descript .description {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body .movie .bib .descript .time {
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+}
+body .movie .bib .descript .tags {
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+}/*# sourceMappingURL=P2M.css.map */
