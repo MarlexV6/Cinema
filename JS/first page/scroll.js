@@ -1,4 +1,3 @@
-
 let items = [];
 
 function loadXML(url) {

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (timerId) {
             clearInterval(timerId);
         }
-        timerId = setInterval(nextSlide, 3000000);
+        timerId = setInterval(nextSlide, 3000);
     }
     function prevSlide() {
         slideIndex = (slideIndex - 1 + slideCount) % slideCount; 
@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (timerId) {
             clearInterval(timerId);
         }
-        timerId = setInterval(nextSlide, 3000000); 
+        timerId = setInterval(nextSlide, 3000); 
     }
     showSlide(slideIndex);
-    timerId = setInterval(nextSlide, 3000000); 
+    timerId = setInterval(nextSlide, 3000); 
      document.querySelector('#next-slide-button').addEventListener('click', nextSlide);
      document.querySelector('#prev-slide-button').addEventListener('click', prevSlide);
 });

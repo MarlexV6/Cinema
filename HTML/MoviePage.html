@@ -114,8 +114,8 @@
             <p class="time"></p>
         </div>
     </div>
-    <a class="trailer"></a>
-
+    
+<iframe class="trailer"></iframe>
     <div>
         <div id="cinemas">
 
@@ -140,6 +140,7 @@
         const tagsURL = decodeURIComponent(params.get('tags'));
         const descriptURL = decodeURIComponent(params.get('description'));
         const timeURL = decodeURIComponent(params.get('time'));
+        const linkURL = decodeURIComponent(params.get('trailer'));
 
             
     document.querySelector('.name').textContent = nameURL;
@@ -148,6 +149,7 @@
     document.querySelector('.tags').textContent = tagsURL;
     document.querySelector('.description').textContent = descriptURL;
     document.querySelector('.time').textContent = timeURL;
+    document.querySelector('.trailer').src = linkURL;
 
     document.title = nameURL;
     });
