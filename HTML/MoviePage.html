@@ -150,8 +150,9 @@
     document.querySelector('.description').textContent = descriptURL;
     document.querySelector('.time').textContent = timeURL;
     const bingus = document.querySelector('.trailer');
-    bingus.innerHTML = `<iframe ${bingus}></iframe>`;
-
+    const itemDiv = document.createElement('iframe');
+    itemDiv.attributes = linkURL;
+    bingus.appendChild(itemDiv);
     document.title = nameURL;
     });
     </script>
