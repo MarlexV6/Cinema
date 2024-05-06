@@ -149,7 +149,8 @@
     document.querySelector('.tags').textContent = tagsURL;
     document.querySelector('.description').textContent = descriptURL;
     document.querySelector('.time').textContent = timeURL;
-    document.querySelector('.trailer').getAttribute = linkURL;
+    const bingus = document.querySelector('.trailer');
+    bingus.innerHTML = `<iframe ${bingus}></iframe>`;
 
     document.title = nameURL;
     });
