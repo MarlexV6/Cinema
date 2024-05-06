@@ -13,7 +13,7 @@ function loadXML(url) {
                     tags: item.querySelector('tags').textContent,
                     description: item.querySelector('description').textContent,
                     time: item.querySelector('time').textContent,
-                    trailer: item.querySelector('trailer').attributes
+
 
                 };
             });
@@ -37,8 +37,7 @@ function addItemsToDOM(items) {
             &image=${encodeURIComponent(item.image)}
             &tags=${encodeURIComponent(item.tags)}
             &description=${encodeURIComponent(item.description)}
-            &time=${encodeURIComponent(item.time)}
-            &trailer=${encodeURIComponent(item.trailer)}">Купить билет</a>
+            &time=${encodeURIComponent(item.time)}">Купить билет</a>
         `;
         itemsList.appendChild(itemDiv);
         
