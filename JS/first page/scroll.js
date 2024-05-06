@@ -32,7 +32,7 @@ function addItemsToDOM(items) {
             <h2>${item.name}</h2>
             <p>${item.tags}</p>
 
-            <a href="/HTML/MoviePage.html?name=${encodeURIComponent(item.name)}
+            <a href="/Cinema/HTML/MoviePage.html?name=${encodeURIComponent(item.name)}
             &age=${encodeURIComponent(item.age)}
             &image=${encodeURIComponent(item.image)}
             &tags=${encodeURIComponent(item.tags)}
