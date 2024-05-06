@@ -1,73 +1,38 @@
-#moviesContainer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url(../Fonts/DelaGothicOne-Regular.ttf);
 }
-#moviesContainer .movie {
-  width: 200px;
-  margin: 60px;
-  text-align: center;
-  box-sizing: border-box;
-  display: inline-block;
-  transform: translate(0);
+@font-face {
+  font-family: "Kumar One";
+  src: url(../Fonts/KumarOne-Regular.ttf);
 }
-#moviesContainer .movie img {
-  width: 200px;
-  height: 300px;
-  border-radius: 20px;
-}
-#moviesContainer .movie h3 {
-  height: 5px;
-  color: grey;
-}
-#moviesContainer .movie h2 {
-  font-family: Dela Gothic One;
-  color: rgb(240, 240, 240);
-  font-size: 18px;
-  margin-bottom: 60px;
-  height: 40px;
-  font-weight: lighter;
-}
-#moviesContainer .movie p {
-  font-family: Kumar One;
-  height: 40px;
-  margin-bottom: 30px;
-  color: grey;
-}
-#moviesContainer .movie div {
-  color: white;
-  margin: auto;
-  border: 4px solid red;
-  border-radius: 20px/20px;
-  height: 40px;
-  padding-top: 5px;
-}
-#moviesContainer .movie a {
-  background-color: black;
-  border: 4px solid red;
-  display: flex;
-  width: 100%;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  transition: all 0.2s ease-out;
-  color: white;
-}
-#moviesContainer a:hover {
-  transition: all 0.2s ease-out;
-  background-color: white;
-  color: black;
+* {
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-header .floating-menu {
+body {
+  background-color: #323232;
+  margin: 0;
+}
+body header a {
+  position: fixed;
+  z-index: 99;
+}
+body header a svg {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  margin-left: 200px;
+  background: radial-gradient(white, black);
+  border-radius: 90px/50px;
+}
+body header .floating-menu {
   width: 600px;
   height: 50px;
   margin: auto;
+  margin-bottom: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
@@ -78,7 +43,7 @@ header .floating-menu {
   right: calc(50% - 300px);
   z-index: 1000; /* make sure the menu is on top of other elements */
 }
-header .floating-menu li {
+body header .floating-menu li {
   display: flex;
   flex-wrap: wrap;
   font-family: Kumar One;
@@ -91,6 +56,87 @@ header .floating-menu li {
   vertical-align: top;
   justify-content: center;
   align-items: center;
+}
+body header .floating-menu li a {
+  color: black;
+}
+body section h2 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding-top: 80px;
+  color: white;
+}
+body section #moviesContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+body section #moviesContainer .movie {
+  width: 200px;
+  margin: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  transform: translate(0);
+}
+body section #moviesContainer .movie img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+body section #moviesContainer .movie h3 {
+  height: 5px;
+  color: grey;
+}
+body section #moviesContainer .movie h2 {
+  font-family: Dela Gothic One;
+  color: rgb(240, 240, 240);
+  font-size: 18px;
+  margin-bottom: 60px;
+  height: 40px;
+  font-weight: lighter;
+}
+body section #moviesContainer .movie p {
+  font-family: Kumar One;
+  height: 40px;
+  margin-bottom: 30px;
+  color: grey;
+}
+body section #moviesContainer .movie div {
+  color: white;
+  margin: auto;
+  border: 4px solid red;
+  border-radius: 20px/20px;
+  height: 40px;
+  padding-top: 5px;
+}
+body section #moviesContainer .movie a {
+  background-color: black;
+  border: 4px solid red;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: all 0.2s ease-out;
+  color: white;
+}
+body section #moviesContainer a:hover {
+  transition: all 0.2s ease-out;
+  background-color: white;
+  color: black;
+}
+body footer {
+  text-align: center;
+  background-color: rgb(63, 63, 63);
+  margin-bottom: 0;
 }
 
 footer {

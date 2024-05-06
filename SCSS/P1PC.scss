@@ -15,11 +15,12 @@ html{background-color: #323232;}
 
 body{margin: 0;
 
-  .cont{display: flex; align-items: center;
+  .cont{display: flex; align-items: center; padding: 0;
   }
   .quick-menu{display: none;}
 
 }
+
 
 
 .info
@@ -97,6 +98,7 @@ body{margin: 0;
     width: 100%;
     border: none;
     aspect-ratio: 10 / 3;
+    height: 700px;
   position: absolute; /* Добавляем абсолютное позиционирование */
     div{.carousel-slide{width: 100%;}}
     .carousel-slide {
@@ -104,11 +106,12 @@ body{margin: 0;
       background-color: white;
       flex: 0 0 100%;
       width: 100%;
+      color: white;
       transition: transform 0.5s ease-in-out;
       position: absolute; /* Добавляем абсолютное позиционирование */
       left: 0; /* Устанавливаем начальное положение */
-      .info{height: 180px; margin-bottom: 0;}
-      img{top: 0;}
+      .info{height: 160px; bottom: 0;  a{background-color: black; width: 500px;border: 4px solid red; color: white;border-radius: 90px; font-family: Kumar One;}}
+      img{top: 0;} 
     }
   }
 }
@@ -179,7 +182,10 @@ h1{text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucid
 }
     
 header{
+  a{ position: fixed;  z-index: 99;svg{width: 160px; height: 50px; position: absolute; margin-left: 200px; background: radial-gradient(white, black); border-radius: 90px/50px;}}
+
 .floating-menu {
+
 width: 600px;
 height: 50px;
 margin: auto;
@@ -194,18 +200,21 @@ display: flex; justify-content: space-around; justify-content: space-around;
   z-index: 1000; /* make sure the menu is on top of other elements */
 
     li{display: flex;
+
       flex-wrap: wrap; 
       font-family: Kumar One;
       justify-content: 
       space-between;
       text-align: center;
       background-color: #C3A3A3;
+  
       width: 120px;
       height: 20px;
       margin: auto;
       vertical-align: top;
       justify-content: center;
       align-items: center;
+      a{color: black;}
 }}
 
 }

@@ -8,16 +8,76 @@
     src: url(../Fonts/KumarOne-Regular.ttf);
   }
  
-
+  *{scroll-behavior: smooth; text-decoration: none; list-style-type: none;}
 
 body{background-color: #323232; margin: 0;
-  header{
+
+  #moviesContainer
+  {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    transition: transform 0.5s ease-in-out;
+    overflow: scroll;
+    width: 100%;
+      .movie{width: 200px;
+        margin: 60px; 
+        text-align: center; 
+        box-sizing: border-box;
+  
+        transform: translate(0);
+  
+      img{width: 200px;
+        height: 300px; 
+        border-radius: 20px;}
+  
+      h3{height: 5px; 
+        color: grey;}
+  
+      h2{font-family: Dela Gothic One; 
+        color: rgb(240, 240, 240); 
+        font-size: 18px; 
+        margin-bottom: 60px;  
+        height: 40px; 
+        font-weight: lighter;}
+  
+      p{font-family: Kumar One; 
+        height: 40px; 
+        margin-bottom: 30px; color: grey;}
+  
+      div{color: white; margin: auto; border: 4px solid red; border-radius: 20px/20px; height: 40px; padding-top: 5px;}
+      a{background-color: black; 
+        border: 4px solid red; 
+        display: flex; 
+        width: 100%; 
+        height: 40px; 
+        justify-content: center; 
+        align-items: center; 
+      border-radius: 20px;
+      transition: all 0.2s ease-out;
+      color: white;}
+      }
+      a:hover
+      {
+        transition: all 0.2s ease-out;
+        background-color: white;
+        color: black;
+      }
+      
+  
+  
+        
+  }
+
+  header{top: 0;
+    a{ position: fixed;  z-index: 99;svg{width: 160px; height: 50px; position: absolute; margin-left: 200px; background: radial-gradient(white, black); border-radius: 90px/50px;}}
+    
     .floating-menu {
     width: 600px;
     height: 50px;
     margin: auto;
     padding: 0;
-
     display: flex; justify-content: space-around; justify-content: space-around; 
     
      position: fixed;
@@ -40,9 +100,10 @@ body{background-color: #323232; margin: 0;
           vertical-align: top;
           justify-content: center;
           align-items: center;
+          a{color: black;}
     }}
-    
-    }}
+  }  
+  footer{text-align: center; background-color: rgb(63, 63, 63); margin-bottom: 0;}  
 .movie
 {       padding-top: 50px;
     margin: auto;
@@ -63,4 +124,5 @@ body{background-color: #323232; margin: 0;
     .tags{color: grey; font-size: 15px;}}}
 
    
+}
 }
