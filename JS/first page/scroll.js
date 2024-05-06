@@ -13,7 +13,7 @@ function loadXML(url) {
                     tags: item.querySelector('tags').textContent,
                     description: item.querySelector('description').textContent,
                     time: item.querySelector('time').textContent,
-                    time:item.querySelector('date').textContent
+                    date:item.querySelector('date').textContent
                 };
             });
             return items;
@@ -37,7 +37,7 @@ function addItemsToDOM(items) {
             &tags=${encodeURIComponent(item.tags)}
             &description=${encodeURIComponent(item.description)}
             &time=${encodeURIComponent(item.time)}
-            &date=${encodeURIComponent(item.time)}">Купить билет</a>
+            &date=${encodeURIComponent(item.date)}">Купить билет</a>
         `;
         itemsList.appendChild(itemDiv);
         

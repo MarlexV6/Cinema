@@ -37,9 +37,9 @@ body #heading {
   z-index: 9;
   position: absolute;
   top: 0;
+  opacity: 0;
   justify-content: center;
-  transform: translate(-3100px);
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 100%;
 }
 body #heading .identify {
@@ -73,6 +73,15 @@ body #heading .identify .buttons a .registr {
   height: 40px;
   border-radius: 90px;
   border: 2px solid red;
+}
+body #heading svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  background: radial-gradient white, black;
+  border-radius: 90px/50px;
+  display: block;
+  margin: auto;
 }
 body #heading .floating-menu {
   width: 100%;

@@ -16,6 +16,25 @@ body {
   background-color: #323232;
   margin: 0;
 }
+body svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  background: radial-gradient white, black;
+  border-radius: 90px/50px;
+  display: block;
+  margin: auto;
+}
+body #quick-menu {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  font-size: 40px;
+}
+body .identify {
+  display: none;
+}
 body #moviesContainer {
   width: 100%;
   display: flex;
@@ -80,14 +99,23 @@ body #moviesContainer a:hover {
   background-color: white;
   color: black;
 }
-body header {
-  top: 0;
+body #quick-menu {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  font-size: 40px;
 }
-body header a {
+body #heading {
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+body #heading a {
   position: fixed;
   z-index: 99;
 }
-body header a svg {
+body #heading a svg {
   width: 160px;
   height: 50px;
   position: absolute;
@@ -95,7 +123,7 @@ body header a svg {
   background: radial-gradient(white, black);
   border-radius: 90px/50px;
 }
-body header .floating-menu {
+body #heading .floating-menu {
   width: 600px;
   height: 50px;
   margin: auto;
@@ -109,7 +137,7 @@ body header .floating-menu {
   right: calc(50% - 300px);
   z-index: 1000; /* make sure the menu is on top of other elements */
 }
-body header .floating-menu li {
+body #heading .floating-menu li {
   display: flex;
   flex-wrap: wrap;
   font-family: Kumar One;
@@ -123,7 +151,7 @@ body header .floating-menu li {
   justify-content: center;
   align-items: center;
 }
-body header .floating-menu li a {
+body #heading .floating-menu li a {
   color: black;
 }
 body footer {

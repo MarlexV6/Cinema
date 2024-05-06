@@ -25,8 +25,27 @@ body .cont {
   align-items: center;
   padding: 0;
 }
-body .quick-menu {
+
+#quick-menu {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  font-size: 40px;
+}
+
+.identify {
   display: none;
+}
+
+svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  background: radial-gradient white, black;
+  border-radius: 90px/50px;
+  display: block;
+  margin: auto;
 }
 
 .info {
@@ -200,11 +219,16 @@ h1 {
   color: black;
 }
 
-header a {
+#heading {
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+#heading a {
   position: fixed;
   z-index: 99;
 }
-header a svg {
+#heading a svg {
   width: 160px;
   height: 50px;
   position: absolute;
@@ -212,7 +236,7 @@ header a svg {
   background: radial-gradient(white, black);
   border-radius: 90px/50px;
 }
-header .floating-menu {
+#heading .floating-menu {
   width: 600px;
   height: 50px;
   margin: auto;
@@ -226,7 +250,7 @@ header .floating-menu {
   right: calc(50% - 300px);
   z-index: 1000; /* make sure the menu is on top of other elements */
 }
-header .floating-menu li {
+#heading .floating-menu li {
   display: flex;
   flex-wrap: wrap;
   font-family: Kumar One;
@@ -240,7 +264,7 @@ header .floating-menu li {
   justify-content: center;
   align-items: center;
 }
-header .floating-menu li a {
+#heading .floating-menu li a {
   color: black;
 }
 

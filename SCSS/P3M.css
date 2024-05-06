@@ -12,11 +12,7 @@
   list-style-type: none;
 }
 
-body {
-  background-color: #323232;
-  margin: 0;
-}
-body svg {
+svg {
   width: 160px;
   height: 50px;
   position: static;
@@ -25,65 +21,101 @@ body svg {
   display: block;
   margin: auto;
 }
+
+body {
+  background-color: #323232;
+  margin: 0;
+}
 body #quick-menu {
-  position: fixed;
+  position: absolute;
   width: 50px;
   height: 50px;
   z-index: 10;
   font-size: 40px;
 }
-body .identify {
-  display: none;
-}
 body #heading {
+  display: flex;
+  z-index: 9;
+  position: absolute;
+  top: 0;
   opacity: 0;
+  justify-content: center;
   transition: all 0.3s ease-in-out;
+  width: 100%;
 }
-body #heading a {
-  position: fixed;
-  z-index: 99;
+body #heading .identify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-body #heading a svg {
+body #heading .identify h2 {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body #heading .identify input {
+  width: 70%;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+body #heading .identify .buttons {
+  width: 70%;
+}
+body #heading .identify .buttons a .entry {
+  float: left;
+  width: 100px;
+  height: 40px;
+  border-radius: 90px;
+  border: 2px solid red;
+}
+body #heading .identify .buttons a .registr {
+  float: right;
+  width: 100px;
+  height: 40px;
+  border-radius: 90px;
+  border: 2px solid red;
+}
+body #heading svg {
   width: 160px;
   height: 50px;
-  position: absolute;
-  margin-left: 200px;
-  background: radial-gradient(white, black);
+  position: static;
+  background: radial-gradient white, black;
   border-radius: 90px/50px;
+  display: block;
+  margin: auto;
 }
 body #heading .floating-menu {
-  width: 600px;
-  height: 50px;
+  width: 100%;
+  height: 1000px;
   margin: auto;
-  margin-bottom: 0;
   padding: 0;
-  display: flex;
+  display: block;
+  justify-content: center;
   justify-content: space-around;
-  justify-content: space-around;
-  position: fixed;
-  background: linear-gradient(white, black);
+  background: linear-gradient(rgb(37, 37, 37), black);
   border-radius: 5px; /* rounded corners */
   right: calc(50% - 300px);
   z-index: 1000; /* make sure the menu is on top of other elements */
 }
 body #heading .floating-menu li {
   display: flex;
-  flex-wrap: wrap;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 50px;
+  margin-top: 10px;
   font-family: Kumar One;
   justify-content: space-between;
   text-align: center;
   background-color: #C3A3A3;
-  width: 120px;
   height: 20px;
-  margin: auto;
-  vertical-align: top;
   justify-content: center;
   align-items: center;
 }
 body #heading .floating-menu li a {
   color: black;
 }
-body section h2 {
+
+section h2 {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border-bottom: 1px solid white;
@@ -91,7 +123,7 @@ body section h2 {
   padding-top: 80px;
   color: white;
 }
-body section #moviesContainer {
+section #moviesContainer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -100,7 +132,7 @@ body section #moviesContainer {
   transition: transform 0.5s ease-in-out;
   width: 100%;
 }
-body section #moviesContainer .movie {
+section #moviesContainer .movie {
   width: 200px;
   margin: 60px;
   text-align: center;
@@ -108,16 +140,16 @@ body section #moviesContainer .movie {
   display: inline-block;
   transform: translate(0);
 }
-body section #moviesContainer .movie img {
+section #moviesContainer .movie img {
   width: 200px;
   height: 300px;
   border-radius: 20px;
 }
-body section #moviesContainer .movie h3 {
+section #moviesContainer .movie h3 {
   height: 5px;
   color: grey;
 }
-body section #moviesContainer .movie h2 {
+section #moviesContainer .movie h2 {
   font-family: Dela Gothic One;
   color: rgb(240, 240, 240);
   font-size: 18px;
@@ -125,13 +157,13 @@ body section #moviesContainer .movie h2 {
   height: 40px;
   font-weight: lighter;
 }
-body section #moviesContainer .movie p {
+section #moviesContainer .movie p {
   font-family: Kumar One;
   height: 40px;
   margin-bottom: 30px;
   color: grey;
 }
-body section #moviesContainer .movie div {
+section #moviesContainer .movie div {
   color: white;
   margin: auto;
   border: 4px solid red;
@@ -139,7 +171,7 @@ body section #moviesContainer .movie div {
   height: 40px;
   padding-top: 5px;
 }
-body section #moviesContainer .movie a {
+section #moviesContainer .movie a {
   background-color: black;
   border: 4px solid red;
   display: flex;
@@ -151,13 +183,14 @@ body section #moviesContainer .movie a {
   transition: all 0.2s ease-out;
   color: white;
 }
-body section #moviesContainer a:hover {
+section #moviesContainer a:hover {
   transition: all 0.2s ease-out;
   background-color: white;
   color: black;
 }
-body footer {
+
+footer {
   text-align: center;
   background-color: rgb(63, 63, 63);
   margin-bottom: 0;
-}/*# sourceMappingURL=P3PC.css.map */
+}/*# sourceMappingURL=P3M.css.map */

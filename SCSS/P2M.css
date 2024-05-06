@@ -12,6 +12,16 @@
   list-style-type: none;
 }
 
+svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  background: radial-gradient white, black;
+  border-radius: 90px/50px;
+  display: block;
+  margin: auto;
+}
+
 body {
   background-color: #323232;
   margin: 0;
@@ -28,9 +38,9 @@ body #heading {
   z-index: 9;
   position: absolute;
   top: 0;
+  opacity: 0;
   justify-content: center;
-  transform: translate(-3100px);
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 100%;
 }
 body #heading .identify {
@@ -65,11 +75,19 @@ body #heading .identify .buttons a .registr {
   border-radius: 90px;
   border: 2px solid red;
 }
+body #heading svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  background: radial-gradient white, black;
+  border-radius: 90px/50px;
+  display: block;
+  margin: auto;
+}
 body #heading .floating-menu {
   width: 100%;
   height: 1000px;
   margin: auto;
-  margin-left: 0;
   padding: 0;
   display: block;
   justify-content: center;
@@ -96,16 +114,8 @@ body #heading .floating-menu li {
 body #heading .floating-menu li a {
   color: black;
 }
-body svg {
-  width: 160px;
-  height: 50px;
-  position: static;
-  background: radial-gradient white, black;
-  border-radius: 90px/50px;
-  display: block;
-  margin: auto;
-}
-body #moviesContainer {
+
+#moviesContainer {
   width: 100%;
   display: flex;
   align-items: start;
@@ -114,23 +124,23 @@ body #moviesContainer {
   overflow: scroll;
   width: 100%;
 }
-body #moviesContainer .movie {
+#moviesContainer .movie {
   width: 200px;
   margin: 60px;
   text-align: center;
   box-sizing: border-box;
   transform: translate(0);
 }
-body #moviesContainer .movie img {
+#moviesContainer .movie img {
   width: 200px;
   height: 300px;
   border-radius: 20px;
 }
-body #moviesContainer .movie h3 {
+#moviesContainer .movie h3 {
   height: 5px;
   color: grey;
 }
-body #moviesContainer .movie h2 {
+#moviesContainer .movie h2 {
   font-family: Dela Gothic One;
   color: rgb(240, 240, 240);
   font-size: 18px;
@@ -138,13 +148,13 @@ body #moviesContainer .movie h2 {
   height: 40px;
   font-weight: lighter;
 }
-body #moviesContainer .movie p {
+#moviesContainer .movie p {
   font-family: Kumar One;
   height: 40px;
   margin-bottom: 30px;
   color: grey;
 }
-body #moviesContainer .movie div {
+#moviesContainer .movie div {
   color: white;
   margin: auto;
   border: 4px solid red;
@@ -152,7 +162,7 @@ body #moviesContainer .movie div {
   height: 40px;
   padding-top: 5px;
 }
-body #moviesContainer .movie a {
+#moviesContainer .movie a {
   background-color: black;
   border: 4px solid red;
   display: flex;
@@ -164,63 +174,19 @@ body #moviesContainer .movie a {
   transition: all 0.2s ease-out;
   color: white;
 }
-body #moviesContainer a:hover {
+#moviesContainer a:hover {
   transition: all 0.2s ease-out;
   background-color: white;
   color: black;
 }
-body header {
-  top: 0;
-}
-body header a {
-  position: fixed;
-  z-index: 99;
-}
-body header a svg {
-  width: 160px;
-  height: 50px;
-  position: absolute;
-  margin-left: 200px;
-  background: radial-gradient(white, black);
-  border-radius: 90px/50px;
-}
-body header .floating-menu {
-  width: 600px;
-  height: 50px;
-  margin: auto;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  justify-content: space-around;
-  position: fixed;
-  background: linear-gradient(white, black);
-  border-radius: 5px; /* rounded corners */
-  right: calc(50% - 300px);
-  z-index: 1000; /* make sure the menu is on top of other elements */
-}
-body header .floating-menu li {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: Kumar One;
-  justify-content: space-between;
-  text-align: center;
-  background-color: #C3A3A3;
-  width: 120px;
-  height: 20px;
-  margin: auto;
-  vertical-align: top;
-  justify-content: center;
-  align-items: center;
-}
-body header .floating-menu li a {
-  color: black;
-}
-body footer {
+
+footer {
   text-align: center;
   background-color: rgb(63, 63, 63);
   margin-bottom: 0;
 }
-body .movie {
+
+.movie {
   padding-top: 50px;
   margin: auto;
   display: flex;
@@ -228,24 +194,24 @@ body .movie {
   justify-content: center;
   flex-direction: column;
 }
-body .movie div {
+.movie div {
   text-align: center;
 }
-body .movie div .name {
+.movie div .name {
   font-family: Dela Gothic One;
   color: white;
   font-weight: lighter;
 }
-body .movie div .age {
+.movie div .age {
   font-family: Kumar One;
   color: grey;
 }
-body .movie .image {
+.movie .image {
   width: 200px;
   height: 300px;
   border-radius: 20px;
 }
-body .movie .bib {
+.movie .bib {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -255,20 +221,20 @@ body .movie .bib {
   background-color: rgb(61, 59, 59);
   box-sizing: padding-box;
 }
-body .movie .bib .descript {
+.movie .bib .descript {
   text-align: left;
   color: white;
 }
-body .movie .bib .descript .description {
+.movie .bib .descript .description {
   margin-bottom: 40px;
   text-align: center;
 }
-body .movie .bib .descript .time {
+.movie .bib .descript .time {
   color: grey;
   font-size: 15px;
   text-align: center;
 }
-body .movie .bib .descript .tags {
+.movie .bib .descript .tags {
   color: grey;
   font-size: 15px;
   text-align: center;
