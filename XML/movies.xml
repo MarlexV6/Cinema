@@ -2,7 +2,7 @@
 <movies>
     <movie>
         <age>12+</age>
-        <image>/Cinema/Cinema/Pictures/100.jpeg</image>
+        <image>/Cinema/Pictures/100.jpeg</image>
 
         <name>100 лет тому вперёд</name>
         <tags>Семейный, фантастика, приключения</tags>
@@ -15,7 +15,7 @@
 
     <movie>
         <age>12+</age>
-        <image>/Cinema/Cinema/Pictures/Dune.jpeg</image>
+        <image>/Cinema/Pictures/Dune.jpeg</image>
 
         <name>Дюна: Часть вторая</name>
         <tags>боевик, драма, фантастика, приключения</tags>
@@ -28,7 +28,7 @@
 
     <movie>
         <age>18+</age>
-        <image>/Cinema/Cinema/Pictures/Empire.jpeg</image>
+        <image>/Cinema/Pictures/Empire.jpeg</image>
 
         <name>Падение империи</name>
         <tags>боевик, драма</tags>
@@ -40,7 +40,7 @@
 
     <movie>
         <age>6+</age>
-        <image>/Cinema/Cinema/Pictures/Woody.jpeg</image>
+        <image>/Cinema/Pictures/Woody.jpeg</image>
 
         <name>Вуди Вудпекер отправляется в лагерь</name>
         <tags>Комедия, фэнтези, приключения</tags>
@@ -53,7 +53,7 @@
     
     <movie>
         <age>12+</age>
-        <image>/Cinema/Cinema/Pictures/Panda.jpeg</image>
+        <image>/Cinema/Pictures/Panda.jpeg</image>
 
         <name>Кунг-фу панда 4</name>
         <tags>Комедия, мультфильм, приключения</tags>
@@ -64,7 +64,7 @@
 
     <movie>
         <age>6+</age>
-        <image>/Cinema/Cinema/Pictures/PandaChina.jpeg</image>
+        <image>/Cinema/Pictures/PandaChina.jpeg</image>
 
         <name>Приключения панды</name>
         <tags>Комедия, мультфильм, приключения</tags>
@@ -78,7 +78,7 @@
 
      <movie>
         <age>12+</age>
-        <image>/Cinema/Cinema/Pictures/Kong.jpeg</image>
+        <image>/Cinema/Pictures/Kong.jpeg</image>
     
         <name>Годзилла-Конг: Новая империя</name>
         <tags>боевик, фантастика</tags>
@@ -89,7 +89,7 @@
 
     <movie>
         <age>12+</age>
-        <image>/Cinema/Cinema/Pictures/Ghost.jpeg</image>
+        <image>/Cinema/Pictures/Ghost.jpeg</image>
         <name>Охотники за привидениями: леденящий ужас</name>
         <tags>фантастика, фэнтези, комедия, приключения</tags>
         <description>Семья Спенглеров возвращается в легендарную пожарную часть в Нью-Йорке.</description>

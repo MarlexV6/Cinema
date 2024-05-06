@@ -42,14 +42,14 @@ function addItemsToDOM(items) {
     });
 }
 document.addEventListener('DOMContentLoaded', function() {
-loadXML('/Cinema/Cinema/XML/movies.xml')
+loadXML('/Cinema/XML/movies.xml')
 
 addItemsToDOM(items)
 });
 
 document.addEventListener('DOMContentLoaded', function() 
 {
-    loadXML('/Cinema/Cinema/XML/movies.xml')
+    loadXML('/Cinema/XML/movies.xml')
     .then(items => addItemsToDOM(items))
     .catch(error => console.error('Ошибка при загрузке XML:', error));
 });
