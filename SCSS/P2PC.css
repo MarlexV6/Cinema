@@ -185,7 +185,8 @@ body .movie .image {
   border-radius: 20px;
 }
 body .movie div .altimage {
-  width: 100%;
+  width: 100px;
+  height: 160px;
 }
 body .movie .bib {
   display: flex;
