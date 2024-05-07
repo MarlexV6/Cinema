@@ -118,7 +118,7 @@ body #heading {
   top: 0;
   transform: translate(-3000px);
   justify-content: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 1s ease-in-out;
   width: 100%;
 }
 body #heading .identify {
