@@ -6,6 +6,16 @@
   font-family: "Kumar One";
   src: url(../Fonts/KumarOne-Regular.ttf);
 }
+svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  background: radial-gradient white, black;
+  border-radius: 90px/50px;
+  display: block;
+  margin: auto;
+}
+
 * {
   scroll-behavior: smooth;
   text-decoration: none;
@@ -15,15 +25,6 @@
 body {
   background-color: #323232;
   margin: 0;
-}
-body svg {
-  width: 160px;
-  height: 50px;
-  position: static;
-  background: radial-gradient white, black;
-  border-radius: 90px/50px;
-  display: block;
-  margin: auto;
 }
 body #quick-menu {
   position: fixed;

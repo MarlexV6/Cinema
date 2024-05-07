@@ -9,11 +9,11 @@
     src: url(../Fonts/KumarOne-Regular.ttf);
   }
 
+  svg{width: 160px; height: 50px; position: static ;background: radial-gradient
+    (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
   *{scroll-behavior: smooth; text-decoration: none; list-style-type: none;}
 body{background-color: #323232; margin: 0; 
 
-  svg{width: 160px; height: 50px; position: static ;background: radial-gradient
-    (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
     #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
     .identify{display: none;}
         #heading{transform: translateX(-3000px);  transition: all 0.3s ease-in-out;
