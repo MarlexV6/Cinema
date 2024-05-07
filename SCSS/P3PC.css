@@ -36,7 +36,7 @@ body .identify {
   display: none;
 }
 body #heading {
-  opacity: 0;
+  transform: translateX(-3000px);
   transition: all 0.3s ease-in-out;
 }
 body #heading a {

@@ -129,7 +129,9 @@
             <p class="tags"></p>
             <p class="time"></p>
         </div>
-     
+        
+        </div>
+        <div class="trailer"></div>
     </section>
     <h3 class="sessions">Доступные сеансы</h3>
     <div class="tickets"></div>
@@ -154,7 +156,7 @@
         const tagsURL = decodeURIComponent(params.get('tags'));
         const descriptURL = decodeURIComponent(params.get('description'));
         const timeURL = decodeURIComponent(params.get('time')); 
-
+        const trailerURL = decodeURIComponent(params.get('trailer'));
     document.querySelector('.name').textContent = nameURL;
     document.querySelector('.age').textContent = ageURL;
     document.querySelector('.image').src = imageURL;
@@ -162,6 +164,11 @@
     document.querySelector('.tags').textContent = tagsURL;
     document.querySelector('.description').textContent = descriptURL;
     document.querySelector('.time').textContent = timeURL;
+    console.log(timeURL);
+    const itemList = document.querySelector('.trailer');
+    const itemDiv = document.createElement('div');
+    itemDiv.innerHTML = `<iframe ${trailerURL}></iframe>`;
+    itemList.appendChild(itemDiv);
     document.title = nameURL;
     });
     </script>

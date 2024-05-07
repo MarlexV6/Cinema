@@ -12,9 +12,34 @@
   list-style-type: none;
 }
 
+.sessions {
+  text-align: center;
+  color: white;
+}
+
+.trailer div iframe {
+  width: 100%;
+  margin-top: 50px;
+  height: 640px;
+}
+
 body {
   background-color: #323232;
   margin: 0;
+}
+body h3 {
+  text-align: center;
+  color: white;
+}
+body .tickets {
+  border-top: 1px solid white;
+  border-bottom: solid 1px white;
+  padding-bottom: 40px;
+}
+body .more {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
 }
 body svg {
   width: 160px;
@@ -109,7 +134,7 @@ body #quick-menu {
 body #heading {
   top: 0;
   transition: all 0.3s ease-in-out;
-  opacity: 0;
+  transform: translateX(-3000px);
 }
 body #heading a {
   position: fixed;
@@ -184,10 +209,6 @@ body .movie .image {
   height: 300px;
   border-radius: 20px;
 }
-body .movie div .altimage {
-  width: 100px;
-  height: 160px;
-}
 body .movie .bib {
   display: flex;
   align-items: center;
@@ -216,11 +237,7 @@ body .info {
   height: 160px;
   bottom: 0;
 }
-body .info a {
-  background-color: black;
-  width: 500px;
-  border: 4px solid red;
-  color: white;
-  border-radius: 90px;
-  font-family: Kumar One;
+body .info .altimage {
+  width: 100%;
+  height: 160px;
 }/*# sourceMappingURL=P2PC.css.map */

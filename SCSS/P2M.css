@@ -22,23 +22,43 @@ svg {
   margin: auto;
 }
 
-body {
-  background-color: #323232;
-  margin: 0;
+.sessions {
+  text-align: center;
+  color: white;
 }
-body #quick-menu {
-  position: absolute;
+
+#quick-menu {
+  position: fixed;
   width: 50px;
   height: 50px;
   z-index: 10;
   font-size: 40px;
 }
+
+body {
+  background-color: #323232;
+  margin: 0;
+}
+body h3 {
+  text-align: center;
+  color: white;
+}
+body .tickets {
+  border-top: 1px solid white;
+  border-bottom: solid 1px white;
+  padding-bottom: 40px;
+}
+body .more {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+}
 body #heading {
   display: flex;
   z-index: 9;
-  position: absolute;
+  position: fixed;
   top: 0;
-  opacity: 0;
+  transform: translate(-3000px);
   justify-content: center;
   transition: all 0.3s ease-in-out;
   width: 100%;
@@ -89,7 +109,6 @@ body #heading .floating-menu {
   height: 1000px;
   margin: auto;
   padding: 0;
-  display: block;
   justify-content: center;
   justify-content: space-around;
   background: linear-gradient(rgb(37, 37, 37), black);
@@ -122,13 +141,13 @@ body #heading .floating-menu li a {
   justify-content: space-between;
   transition: transform 0.5s ease-in-out;
   overflow: scroll;
-  width: 100%;
 }
 #moviesContainer .movie {
   width: 200px;
   margin: 60px;
   text-align: center;
   box-sizing: border-box;
+  z-index: 5;
   transform: translate(0);
 }
 #moviesContainer .movie img {
@@ -170,6 +189,7 @@ body #heading .floating-menu li a {
   height: 40px;
   justify-content: center;
   align-items: center;
+  z-index: 99;
   border-radius: 20px;
   transition: all 0.2s ease-out;
   color: white;
@@ -210,9 +230,6 @@ footer {
   width: 200px;
   height: 300px;
   border-radius: 20px;
-}
-.movie .altimage {
-  width: 100%;
 }
 .movie .bib {
   display: flex;

@@ -3,7 +3,7 @@
     <movie>
         <age>12+</age>
         <image>/Cinema/Pictures/100.jpeg</image>
-          <altimage>Cinema/Pictures/100.jpg</altimage>
+          <altimage>/Cinema/Pictures/100.jpg</altimage>
         <name>100 лет тому вперёд</name>
         <tags>Семейный, фантастика, приключения</tags>
         <description>Они живут в разных мирах. Коля Герасимов — в сегодняшней Москве, Алиса Селезнева — на сто лет позже. 
@@ -12,6 +12,7 @@
         в которых нашим героям предстоит отвоевать у космических пиратов Вселенную, восстановить ход времени и обрести самое дорогое: любовь и дружбу.</description>
         <time>Длительность: 142 мин. / 02:22</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/EfUNm8Jumkc?si=Sfb_e4HevIS2EzDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
   </movie>
 
     <movie>
@@ -26,6 +27,7 @@
         Враждебный мир Арракиса приготовил для него множество тяжелых испытаний, но только тот, кто готов взглянуть в глаза своему страху, достоин стать избранным.</description>
         <time>Длительность: 166 мин. / 02:46</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/42RV2e1GyzM?si=VD-7ojSDcdD2r4r5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 
     <movie>
@@ -39,6 +41,7 @@
         Но в стране, где царит хаос, нет ничего дороже литра бензина и ничего дешевле, чем человеческая жизнь.</description>
         <time>Длительность: 109 мин. / 01:49</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/MczFU2xe_P0?si=Go1FrThRg_hDU1eB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 
     <movie>
@@ -52,6 +55,7 @@
         Вуди уверен, что теперь именно здесь будет его дом. Однако очень скоро выясняется, что лагерь под угрозой закрытия, и виной тому некий инспектор.</description>
         <time>Длительность: 100 мин. / 01:40</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/ELrLaCFYp4k?si=PlV74P7WpN0E4FF3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
     
     <movie>
@@ -63,6 +67,7 @@
         <description>Продолжение приключений легендарного воина По, его верных друзей и наставника.</description>
         <time>Длительность: 94 мин. / 01:34</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/Xq7PsTU7vCQ?si=HU_qsyJwiDvxbcF3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 
     <movie>
@@ -76,6 +81,7 @@
         Полагаясь на свой ум, доброту и находчивость, он заведёт множество новых друзей среди местных обитателей, ведь у храбрости нет размера, а настоящая дружба не знает преград.</description>
         <time>Длительность: 84 мин. / 01:24</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/4Can4mvxJsU?si=ezA6ziBte-RMlmsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 
 
@@ -88,6 +94,7 @@
         <description>Эпическая битва продолжается! В этот раз новая невиданная сила противостоит могущественному Конгу и бесстрашному Годзилле и угрожает их существованию и… существованию мира.</description>
         <time>Длительность: 115 мин. / 01:55</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/mXBPVpJfCxo?si=TBl57IPhDlovkLFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 
     <movie>
@@ -99,6 +106,7 @@
         <description>Семья Спенглеров возвращается в легендарную пожарную часть в Нью-Йорке.</description>
         <time>Длительность: 115 мин. / 01:55</time>
         <date></date>
+        <trailer>width="560" height="315" src="https://www.youtube.com/embed/07-XO0G5IkM?si=k2akcuMH3dmPxn5J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 
     <movie>
@@ -113,5 +121,6 @@
       в том числе — мистический персонаж Воланд, списанный со знакомого иностранца.</description>
       <time>Длительность: 157 мин. / 02:37</time>
       <date></date>
+      <trailer>width="560" height="315" src="https://www.youtube.com/embed/XQ8xR-1lPJE?si=G60zLLNeab9_m0pa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</trailer>
     </movie>
 </movies>
