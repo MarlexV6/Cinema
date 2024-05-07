@@ -9,6 +9,8 @@
     src: url(../Fonts/KumarOne-Regular.ttf);
   }
  
+.nothing{width: 100%; display: flex; justify-content: center; align-items: center;font-size: 80px; color: white;}
+
 *{scroll-behavior: smooth; text-decoration: none; list-style-type: none;}
 
 html{background-color: #323232;}

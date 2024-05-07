@@ -1,0 +1,69 @@
+svg {
+  width: 160px;
+  height: 50px;
+  position: static;
+  display: block;
+  margin: auto;
+}
+
+#quick-menu {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 101;
+  font-size: 40px;
+}
+
+#heading {
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-3000px);
+}
+#heading a {
+  position: fixed;
+  z-index: 99;
+}
+#heading a svg {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  margin-left: 200px;
+  background: radial-gradient(white, black);
+  border-radius: 90px/50px;
+}
+#heading .floating-menu {
+  width: 600px;
+  height: 50px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-around;
+  background: linear-gradient(white, black);
+  border-radius: 5px; /* rounded corners */
+  right: calc(50% - 300px);
+  z-index: 1000; /* make sure the menu is on top of other elements */
+}
+#heading .floating-menu li {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Kumar One;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #C3A3A3;
+  width: 120px;
+  height: 20px;
+  margin: auto;
+  vertical-align: top;
+  justify-content: center;
+  align-items: center;
+}
+#heading .floating-menu li a {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(63, 63, 63);
+  margin-bottom: 0;
+}/*# sourceMappingURL=error.css.map */
