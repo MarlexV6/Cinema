@@ -20,6 +20,20 @@ html {
 body {
   margin: 0;
 }
+body .about_us {
+  background: linear-gradient(grey, black);
+  height: 400px;
+  width: 100%;
+}
+body .about_us h2 {
+  text-align: center;
+  font-family: Kumar One;
+  color: white;
+}
+body .about_us p {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 body .cont {
   display: flex;
   align-items: center;

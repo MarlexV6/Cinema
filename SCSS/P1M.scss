@@ -14,6 +14,13 @@ html{background-color: #323232;}
 
 body{margin: 0;
 
+  .about_us
+{background: linear-gradient(grey, black);
+  height: 400px;
+  width: 100%;
+h2{text-align: center; font-family: Kumar One; color: white;}
+  p{color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+}
   .cont{display: flex; align-items: center; padding: 0;
   }
   #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 101; font-size: 40px;}
