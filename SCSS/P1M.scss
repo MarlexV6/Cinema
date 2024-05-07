@@ -26,10 +26,7 @@ transition: all 0.3s ease-in-out;
     input{width: 70%; margin-bottom: 30px; border-radius: 30px;
     
  }
- .buttons
- {
-  width: 70%;
-  a{
+ .buttons{width: 70%; a{
     .entry{float: left; width: 100px; height: 40px; border-radius: 90px; border: 2px solid red;}
     .registr{float: right; width: 100px; height: 40px;border-radius: 90px; border: 2px solid red;}
  }}

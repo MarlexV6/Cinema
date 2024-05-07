@@ -1,10 +1,11 @@
 
 const toggle = document.getElementById("quick-menu");
 const element = document.getElementById("heading");
+const field = document.getElementsByName('input');
 var state = false;
 
 
-{toggle.addEventListener("click", () => {
+toggle.addEventListener("click", () => {
 
 if(state === false)
   {  
@@ -17,4 +18,5 @@ else
         state=false;
     }
     element.style.display = 'flex';
-});}
+});
+

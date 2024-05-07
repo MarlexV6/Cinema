@@ -9,18 +9,28 @@
     src: url(../Fonts/KumarOne-Regular.ttf);
   }
  
-.nothing{width: 100%; display: flex; justify-content: center; align-items: center;font-size: 80px; color: white;}
+
 
 *{scroll-behavior: smooth; text-decoration: none; list-style-type: none;}
 
 html{background-color: #323232;}
 
 body{margin: 0;
+.registration{width: 100%; display: flex; flex-direction: column; align-items: center; h2{color: white;}
+  .buttons{width: 70%; a{
+    .entry{float: left; width: 100px; height: 40px; border-radius: 90px; border: 2px solid red;}
+    .registr{float: right; width: 100px; height: 40px;border-radius: 90px; border: 2px solid red;}
+ }}
 
+ 
+  .fields{width: 100%; display: flex; flex-direction: column; align-items: center;
+    input{width: 70%; margin-bottom: 30px; border-radius: 30px;}  }}
+  
+  
   .cont{display: flex; align-items: center; padding: 0;
   }
   
-
+  .nothing{width: 100%; display: flex; justify-content: center; align-items: center;font-size: 80px; color: white;}
 }
 #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
 .identify{display: none;}
