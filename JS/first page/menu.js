@@ -8,12 +8,12 @@ var state = false;
 
 if(state === false)
   {  
-    element.style.opacity = 1;
+    element.style.transform = "translateX(0px)";
     state = true;
 }
 else
     {
-        element.style.opacity = 0;
+        element.style.transform = "translateX(-3000px)"
         state=false;
     }
     element.style.display = 'flex';
