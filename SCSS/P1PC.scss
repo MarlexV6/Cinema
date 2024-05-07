@@ -189,18 +189,36 @@ h1{text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucid
 
 .floating-menu {
 
-  position: fixed; /* Фиксированное позиционирование */
-  top: 0; /* Выравнивание сверху */
-  left: -250px; /* Выравнивание слева */
-  width: 250px; /* Ширина меню */
-  height: 100%; /* Высота меню */
-  background-color: #054256ce; /* Фон меню */
-  overflow-x: hidden; /* Скрываем лишний контент по горизонтали */
-  padding: 0;
-  text-align: left;
-  z-index: 10;
-  transition: 1s;
-}
+width: 600px;
+height: 50px;
+margin: auto;
+padding: 0;
+display: flex; justify-content: space-around; justify-content: space-around; 
+
+ position: fixed;
+ background: linear-gradient(white, black);
+
+  border-radius: 5px; /* rounded corners */
+  right: calc(50% - 300px);
+  z-index: 1000; /* make sure the menu is on top of other elements */
+
+    li{display: flex;
+
+      flex-wrap: wrap; 
+      font-family: Kumar One;
+      justify-content: 
+      space-between;
+      text-align: center;
+      background-color: #C3A3A3;
+  
+      width: 120px;
+      height: 20px;
+      margin: auto;
+      vertical-align: top;
+      justify-content: center;
+      align-items: center;
+      a{color: black;}
+}}
 
 }
 footer{text-align: center; background-color: rgb(63, 63, 63); margin-bottom: 0;}
