@@ -277,4 +277,88 @@ footer {
 
 #moviesContainer div {
   display: inline-block;
+}
+
+@media (max-width: 834px) {
+  #heading {
+    display: flex;
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+  }
+  #heading .identify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #heading .identify h2 {
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #heading .identify input {
+    width: 70%;
+    margin-bottom: 30px;
+    border-radius: 30px;
+  }
+  #heading .identify .buttons {
+    width: 70%;
+  }
+  #heading .identify .buttons a .entry {
+    float: left;
+    width: 100px;
+    height: 40px;
+    border-radius: 90px;
+    border: 2px solid red;
+  }
+  #heading .identify .buttons a .registr {
+    float: right;
+    width: 100px;
+    height: 40px;
+    border-radius: 90px;
+    border: 2px solid red;
+  }
+  #heading svg {
+    width: 160px;
+    height: 50px;
+    position: static;
+    background: radial-gradient white, black;
+    border-radius: 90px/50px;
+    display: block;
+    margin: auto;
+  }
+  #heading .floating-menu {
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    justify-content: space-around;
+    background: linear-gradient(rgb(37, 37, 37), black);
+    border-radius: 5px; /* rounded corners */
+    right: calc(50% - 300px);
+    z-index: 1000; /* make sure the menu is on top of other elements */
+  }
+  #heading .floating-menu li {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: Kumar One;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #C3A3A3;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  #heading .floating-menu li a {
+    color: black;
+  }
 }/*# sourceMappingURL=P1PC.css.map */
