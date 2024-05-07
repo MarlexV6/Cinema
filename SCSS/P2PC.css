@@ -12,20 +12,74 @@
   list-style-type: none;
 }
 
-.sessions {
+body {
+  background-color: #323232;
+  margin: 0;
+}
+body .sessions {
   text-align: center;
   color: white;
+  border-bottom: 1px solid white;
 }
-
-.trailer div iframe {
+body .trailer div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .trailer div iframe {
   width: 100%;
   margin-top: 50px;
   height: 640px;
 }
-
-body {
-  background-color: #323232;
-  margin: 0;
+body .enter {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  font-family: Kumar One;
+  color: white;
+  text-align: center;
+}
+body .enter .cinema {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .enter .dateone {
+  width: 90px;
+  height: 90px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .enter .datetwo {
+  height: 90px;
+  width: 90px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .enter .datethree {
+  width: 90px;
+  height: 90px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 body h3 {
   text-align: center;
@@ -188,7 +242,7 @@ body .movie {
   padding-top: 50px;
   margin: auto;
   display: flex;
-  width: 60%;
+  width: 70%;
   justify-content: center;
   flex-direction: column;
 }

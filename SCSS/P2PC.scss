@@ -10,14 +10,25 @@
  
   *{scroll-behavior: smooth; text-decoration: none; list-style-type: none;}
 
-  .sessions{text-align: center; color: white;}
-.trailer{div{iframe{width: 100%; margin-top: 50px; height: 640px;}}}
+
 body{background-color: #323232; margin: 0;
+  .sessions{text-align: center; color: white; border-bottom: 1px solid white;}
+  .trailer{div {width: 100%;
+    display: flex; 
+    justify-content: center;iframe{width: 100%; margin-top: 50px; height: 640px;}}}
+    .enter{display: flex; justify-content: space-between; width: 60%; margin: auto; align-items: center; font-family: Kumar One; color: white; text-align: center;
+      .cinema{width: 100px; height: 100px; border: 1px solid white; border-radius: 20px;font-size: 18px; display: flex; align-items: center; justify-content: center;}
+      .dateone{width: 90px; height: 90px;border: 1px solid white;border-radius: 20px;font-size: 18px;display: flex; align-items: center; justify-content: center;}
+      .datetwo{height: 90px; width: 90px;border: 1px solid white;border-radius: 20px;font-size: 18px;display: flex; align-items: center; justify-content: center;}
+      .datethree{width: 90px; height: 90px;border: 1px solid white;border-radius: 20px;font-size: 18px;display: flex; align-items: center; justify-content: center;}}
+  
   h3{text-align: center; color: white;}
   .tickets{border-top: 1px solid white; border-bottom: solid 1px white; padding-bottom: 40px;}
   .more{margin-top: 80px; text-align: center; color: white;}
+
   svg{width: 160px; height: 50px; position: static ;background: radial-gradient
     (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
+    
     #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
     .identify{display: none;}
   #moviesContainer
@@ -116,7 +127,7 @@ body{background-color: #323232; margin: 0;
 {       padding-top: 50px;
     margin: auto;
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: center;
     flex-direction: column;
     div 

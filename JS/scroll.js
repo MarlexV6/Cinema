@@ -14,8 +14,12 @@ function loadXML(url) {
                     tags: item.querySelector('tags').textContent,
                     description: item.querySelector('description').textContent,
                     time: item.querySelector('time').textContent,
+                    dateone: item.querySelector('dateone').textContent,
+                    datetwo: item.querySelector('datetwo').textContent,
+                    datethree: item.querySelector('datethree').textContent,
+                    cinema: item.querySelector('cinema').textContent,
                     trailer: item.querySelector('trailer').textContent
-
+                    
                 };
             });
             return items;
@@ -40,6 +44,10 @@ function addItemsToDOM(items) {
             &description=${encodeURIComponent(item.description)}
             &time=${encodeURIComponent(item.time)}
             &altimage=${encodeURIComponent(item.altimage)}
+            &dateone=${encodeURIComponent(item.dateone)}
+            &datetwo=${encodeURIComponent(item.datetwo)}
+            &datethree=${encodeURIComponent(item.datethree)}
+            &cinema=${encodeURIComponent(item.cinema)}
             &trailer=${encodeURIComponent(item.trailer)}">Купить билет</a>
             
         `;
