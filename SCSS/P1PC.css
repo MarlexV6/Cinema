@@ -116,6 +116,21 @@ svg {
   border: none;
 }
 
+.about_us {
+  background: linear-gradient(grey, black);
+  height: 300px;
+  width: 100%;
+}
+.about_us h2 {
+  text-align: center;
+  font-family: Kumar One;
+  color: white;
+}
+.about_us p {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .galery {
   z-index: 1;
   width: 100%;
