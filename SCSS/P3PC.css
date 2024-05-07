@@ -39,6 +39,10 @@ body .identify {
 body #heading {
   transform: translateX(-3000px);
   transition: all 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  right: calc(50% - 300px);
+  z-index: 999;
 }
 body #heading a {
   position: fixed;
@@ -61,7 +65,6 @@ body #heading .floating-menu {
   display: flex;
   justify-content: space-around;
   justify-content: space-around;
-  position: fixed;
   background: linear-gradient(white, black);
   border-radius: 5px; /* rounded corners */
   right: calc(50% - 300px);
