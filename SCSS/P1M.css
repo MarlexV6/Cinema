@@ -20,6 +20,51 @@ html {
 body {
   margin: 0;
 }
+body .nothing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+body .registration {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .registration h2 {
+  color: white;
+}
+body .registration .buttons {
+  width: 70%;
+}
+body .registration .buttons a .entry {
+  float: left;
+  width: 100px;
+  height: 40px;
+  border-radius: 90px;
+  border: 2px solid red;
+}
+body .registration .buttons a .registr {
+  float: right;
+  width: 100px;
+  height: 40px;
+  border-radius: 90px;
+  border: 2px solid red;
+}
+body .registration .fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .registration .fields input {
+  width: 70%;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
 body .about_us {
   background: linear-gradient(grey, black);
   height: 400px;
@@ -56,38 +101,6 @@ body #heading {
   justify-content: center;
   transition: all 0.3s ease-in-out;
   width: 100%;
-}
-body #heading .identify {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-body #heading .identify h2 {
-  color: white;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-body #heading .identify input {
-  width: 70%;
-  margin-bottom: 30px;
-  border-radius: 30px;
-}
-body #heading .identify .buttons {
-  width: 70%;
-}
-body #heading .identify .buttons a .entry {
-  float: left;
-  width: 100px;
-  height: 40px;
-  border-radius: 90px;
-  border: 2px solid red;
-}
-body #heading .identify .buttons a .registr {
-  float: right;
-  width: 100px;
-  height: 40px;
-  border-radius: 90px;
-  border: 2px solid red;
 }
 body #heading svg {
   position: static;
