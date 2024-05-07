@@ -211,6 +211,9 @@ footer {
   height: 300px;
   border-radius: 20px;
 }
+.movie .altimage {
+  width: 100%;
+}
 .movie .bib {
   display: flex;
   align-items: center;

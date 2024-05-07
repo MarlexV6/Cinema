@@ -3,7 +3,7 @@
     <movie>
         <age>12+</age>
         <image>/Cinema/Pictures/100.jpeg</image>
-
+          <altimage></altimage>
         <name>100 лет тому вперёд</name>
         <tags>Семейный, фантастика, приключения</tags>
         <description>Они живут в разных мирах. Коля Герасимов — в сегодняшней Москве, Алиса Селезнева — на сто лет позже. 
@@ -17,7 +17,7 @@
     <movie>
         <age>12+</age>
         <image>/Cinema/Pictures/Dune.jpeg</image>
-
+      <altimage>/Cinema/Pictures/Dune.png</altimage>
         <name>Дюна: Часть вторая</name>
         <tags>боевик, драма, фантастика, приключения</tags>
         <description>Наследник знаменитого дома Атрейдесов Пол отправляется вместе с семьей на одну из самых опасных планет во Вселенной — Арракис. 
@@ -31,7 +31,7 @@
     <movie>
         <age>18+</age>
         <image>/Cinema/Pictures/Empire.jpeg</image>
-
+        <altimage>/Cinema/Pictures/hq720.jpg</altimage>
         <name>Падение империи</name>
         <tags>боевик, драма</tags>
         <description>Национальная гвардия Калифорнии и Техаса при поддержке боевой техники и авиации штурмуют столицу. 
@@ -44,7 +44,7 @@
     <movie>
         <age>6+</age>
         <image>/Cinema/Pictures/Woody.jpeg</image>
-
+      <altimage></altimage>
         <name>Вуди Вудпекер отправляется в лагерь</name>
         <tags>Комедия, фэнтези, приключения</tags>
         <description>Неугомонного дятла Вуди выгоняют из родного леса, и теперь он должен найти себе новый дом, в котором мог бы жить с комфортом. 
@@ -57,7 +57,7 @@
     <movie>
         <age>12+</age>
         <image>/Cinema/Pictures/Panda.jpeg</image>
-
+      <altimage>/Cinema/Pictures/Po.jpg</altimage>
         <name>Кунг-фу панда 4</name>
         <tags>Комедия, мультфильм, приключения</tags>
         <description>Продолжение приключений легендарного воина По, его верных друзей и наставника.</description>
@@ -68,7 +68,7 @@
     <movie>
         <age>6+</age>
         <image>/Cinema/Pictures/PandaChina.jpeg</image>
-
+      <altimage>/Cinema/Pictures/ChinaPo.jpg</altimage>
         <name>Приключения панды</name>
         <tags>Комедия, мультфильм, приключения</tags>
         <description>Юный, но отважный панда по имени Пан отправляется в Африку, чтобы спасти свою лучшую подругу — дракона Цзелун. 
@@ -82,7 +82,7 @@
      <movie>
         <age>12+</age>
         <image>/Cinema/Pictures/Kong.jpeg</image>
-    
+          <altimage>/Cinema/Pictures/film-godzilla-i-kong-novaya-imperiya-2024_1712398807868590834.jpg</altimage>
         <name>Годзилла-Конг: Новая империя</name>
         <tags>боевик, фантастика</tags>
         <description>Эпическая битва продолжается! В этот раз новая невиданная сила противостоит могущественному Конгу и бесстрашному Годзилле и угрожает их существованию и… существованию мира.</description>
@@ -93,6 +93,7 @@
     <movie>
         <age>12+</age>
         <image>/Cinema/Pictures/Ghost.jpeg</image>
+              <altimage>/Cinema/Pictures/Ghostsjpeg.jpeg</altimage>
         <name>Охотники за привидениями: леденящий ужас</name>
         <tags>фантастика, фэнтези, комедия, приключения</tags>
         <description>Семья Спенглеров возвращается в легендарную пожарную часть в Нью-Йорке.</description>

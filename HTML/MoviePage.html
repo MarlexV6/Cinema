@@ -112,8 +112,11 @@
 
 </header>
     <section>
-    <div class="movie">
-        
+        <div class="info">
+        <image class ="altimage">   
+        </div>
+    <div class="movie">  
+
     <div>
         <h1 class="name"></h1>
         <p class="age"></p>
@@ -128,11 +131,9 @@
             <p class="tags"></p>
             <p class="time"></p>
         </div>
-        <div class="">
-
-        </div>
+     
     </section>
-    </div>
+
     
 
     <div>
@@ -156,18 +157,18 @@
         const nameURL = decodeURIComponent(params.get('name'));
         const ageURL = decodeURIComponent(params.get('age'));
         const imageURL = decodeURIComponent(params.get('image'));
+        const altimageURL = decodeURIComponent(params.get('altimage'));
         const tagsURL = decodeURIComponent(params.get('tags'));
         const descriptURL = decodeURIComponent(params.get('description'));
         const timeURL = decodeURIComponent(params.get('time')); 
-        const dateURL = decodeURIComponent(params.get('date'));
-         
+
     document.querySelector('.name').textContent = nameURL;
     document.querySelector('.age').textContent = ageURL;
     document.querySelector('.image').src = imageURL;
+    document.querySelector('.altimage').src = altimageURL;
     document.querySelector('.tags').textContent = tagsURL;
     document.querySelector('.description').textContent = descriptURL;
     document.querySelector('.time').textContent = timeURL;
-    document.querySelector('.date').textContent = dateURL;
     document.title = nameURL;
     });
     </script>
