@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(/Cinema/SCSS/P1M.css) (max-width: 834px);
 @font-face {
   font-family: "Dela Gothic One";
   src: url(../Fonts/DelaGothicOne-Regular.ttf);
