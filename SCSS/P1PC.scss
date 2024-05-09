@@ -16,9 +16,7 @@
 html{background-color: #323232;}
 
 body{margin: 0;
-
-
-  #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
+#quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
   #heading{top: 0;  transition: all 0.3s ease-in-out; transform: translateX(-3000px);   position: fixed;
     right: calc(50% - 300px); z-index: 999;
       a{ position: fixed;  z-index: 99;svg{width: 160px; height: 50px; position: absolute; margin-left: 200px; background: radial-gradient(white, black); border-radius: 90px/50px;}}
@@ -55,12 +53,79 @@ body{margin: 0;
     }  
   
   
-  
-  
+    .galery
+    {z-index: 1;
+      width: 100%;
+      height: 700px;
+      #next-slide-button{
+        transition: all 0.2s ease-out;
+        margin-top: 200px;
+        margin-right: 50px;
+        z-index: 70;
+        right: 0;
+      }
+      #prev-slide-button
+      {transition: all 0.2s ease-out;
+        margin-top: 200px;
+        margin-left: 50px;
+        z-index: 70;
+      }
+      
+      #next-slide-button:hover
+      { 
+        color: white;
+        background: black;
+        transition: all 0.2s ease-out;
+      }
+      
+      #prev-slide-button:hover
+      { 
+        color: white;
+        background: black;
+        transition: all 0.2s ease-out;
+      }
+    
+      button{
+        position: absolute;
+        z-index: 2;
+        height: 117px;
+        border-radius: 50px;
+        aspect-ratio: 10 / 30;
+        background: rgba(0, 0, 0, 0.505);
+        border: none;
+        cursor: pointer;
+      }
+    
+      .carousel {
+        display: inline-block;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 100%;
+        border: none;
+        aspect-ratio: 10 / 3;
+        height: 700px;
+      position: absolute; /* Добавляем абсолютное позиционирование */
+        div{.carousel-slide{width: 100%;}}
+        .carousel-slide {
+          display: flex;
+          background-color: white;
+          flex: 0 0 100%;
+          width: 100%;
+          color: white;
+          transition: transform 0.5s ease-in-out;
+          position: absolute; /* Добавляем абсолютное позиционирование */
+          left: 0; /* Устанавливаем начальное положение */
+          .info{height: 160px; bottom: 0;  a{background-color: black; width: 500px;border: 4px solid red; color: white;border-radius: 90px; font-family: Kumar One;}}
+          img{top: 0; width: 100%;} 
+        }
+      }
+    }
+    
   footer{text-align: center; background-color: rgb(63, 63, 63); margin-bottom: 0;}
-  
 
   .registration{width: 100%; display: flex; flex-direction: column; align-items: center; h2{color: white;}
+
   .buttons{width: 70%; 
       a{
       .entry{float: left; width: 100px; height: 40px; border-radius: 90px; border: 2px solid red;}
@@ -80,18 +145,19 @@ body{margin: 0;
 
 svg{width: 160px; height: 50px; position: static ;display: block; margin: auto;} 
 
-.info
-{
-  background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
-  z-index: 10;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  padding-left: 300px;
-}
 
-.carousel-slide {img {
+
+.carousel-slide {.info
+  {
+    background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding-left: 300px;
+  }
+  img {
   width: 100%;
   height: 650px;
 }
@@ -107,76 +173,6 @@ div { width: 100%;
 h2{text-align: center; font-family: Kumar One; color: white;}
   p{color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 }
-
-.galery
-{z-index: 1;
-  width: 100%;
-  height: 700px;
-  #next-slide-button{
-    transition: all 0.2s ease-out;
-    margin-top: 200px;
-    margin-right: 50px;
-    z-index: 70;
-    right: 0;
-  }
-  #prev-slide-button
-  {transition: all 0.2s ease-out;
-    margin-top: 200px;
-    margin-left: 50px;
-    z-index: 70;
-  }
-  
-  #next-slide-button:hover
-  { 
-    color: white;
-    background: black;
-    transition: all 0.2s ease-out;
-  }
-  
-  #prev-slide-button:hover
-  { 
-    color: white;
-    background: black;
-    transition: all 0.2s ease-out;
-  }
-
-  button{
-    position: absolute;
-    z-index: 2;
-    height: 117px;
-    border-radius: 50px;
-    aspect-ratio: 10 / 30;
-    background: rgba(0, 0, 0, 0.505);
-    border: none;
-    cursor: pointer;
-  }
-
-  .carousel {
-    display: inline-block;
-    align-items: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-    width: 100%;
-    border: none;
-    aspect-ratio: 10 / 3;
-    height: 700px;
-  position: absolute; /* Добавляем абсолютное позиционирование */
-    div{.carousel-slide{width: 100%;}}
-    .carousel-slide {
-      display: flex;
-      background-color: white;
-      flex: 0 0 100%;
-      width: 100%;
-      color: white;
-      transition: transform 0.5s ease-in-out;
-      position: absolute; /* Добавляем абсолютное позиционирование */
-      left: 0; /* Устанавливаем начальное положение */
-      .info{height: 160px; bottom: 0;  a{background-color: black; width: 500px;border: 4px solid red; color: white;border-radius: 90px; font-family: Kumar One;}}
-      img{top: 0; width: 100%;} 
-    }
-  }
-}
-
 
 
 h1{text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border-top: white solid 1px; border-bottom: white solid 1px; color: white}
