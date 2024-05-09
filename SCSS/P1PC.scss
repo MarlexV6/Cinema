@@ -16,10 +16,55 @@
 html{background-color: #323232;}
 
 body{margin: 0;
-.registration{width: 100%; display: flex; flex-direction: column; align-items: center; h2{color: white;}
-  .buttons{width: 70%; a{
-    .entry{float: left; width: 100px; height: 40px; border-radius: 90px; border: 2px solid red;}
-    .registr{float: right; width: 100px; height: 40px;border-radius: 90px; border: 2px solid red;}
+
+
+  #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
+  #heading{top: 0;  transition: all 0.3s ease-in-out; transform: translateX(-3000px);   position: fixed;
+    right: calc(50% - 300px); z-index: 999;
+      a{ position: fixed;  z-index: 99;svg{width: 160px; height: 50px; position: absolute; margin-left: 200px; background: radial-gradient(white, black); border-radius: 90px/50px;}}
+      
+      .floating-menu {
+      
+      width: 600px;
+      height: 50px;
+      margin: auto;
+      padding: 0;
+      display: flex; justify-content: space-around; justify-content: space-around; 
+      
+       background: linear-gradient(white, black);
+      
+        border-radius: 5px; /* rounded corners */
+        right: calc(50% - 300px);
+        z-index: 1000; /* make sure the menu is on top of other elements */
+      
+          li{display: flex;
+            flex-wrap: wrap; 
+            font-family: Kumar One;
+            justify-content: 
+            space-between;
+            text-align: center;
+            background-color: #C3A3A3;
+            width: 120px;
+            height: 20px;
+            margin: auto;
+            vertical-align: top;
+            justify-content: center;
+            align-items: center;
+            a{color: black;}
+      }}
+    }  
+  
+  
+  
+  
+  footer{text-align: center; background-color: rgb(63, 63, 63); margin-bottom: 0;}
+  
+
+  .registration{width: 100%; display: flex; flex-direction: column; align-items: center; h2{color: white;}
+  .buttons{width: 70%; 
+      a{
+      .entry{float: left; width: 100px; height: 40px; border-radius: 90px; border: 2px solid red;}
+      .registr{float: right; width: 100px; height: 40px;border-radius: 90px; border: 2px solid red;}
  }}
 
   .fields{width: 100%; display: flex; flex-direction: column; align-items: center;
@@ -46,18 +91,14 @@ svg{width: 160px; height: 50px; position: static ;display: block; margin: auto;}
   padding-left: 300px;
 }
 
-.carousel-slide img {
+.carousel-slide {img {
   width: 100%;
   height: 650px;
 }
-.carousel-slide div img{
-  width: 100%;
-
-}
-.carousel-slide div{
-  width: 100%;
+div { width: 100%;
   border: none;
-}
+  img{  width: 100%;}}}
+
 
 .about_us
 {background: linear-gradient(grey, black);
@@ -195,52 +236,9 @@ h1{text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucid
       background-color: white;
       color: black;
     }
-    
-
-
       
 }
     
-#quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
-#heading{top: 0;  transition: all 0.3s ease-in-out; transform: translateX(-3000px);   position: fixed;
-  right: calc(50% - 300px); z-index: 999;
-    a{ position: fixed;  z-index: 99;svg{width: 160px; height: 50px; position: absolute; margin-left: 200px; background: radial-gradient(white, black); border-radius: 90px/50px;}}
-    
-    .floating-menu {
-    
-    width: 600px;
-    height: 50px;
-    margin: auto;
-    padding: 0;
-    display: flex; justify-content: space-around; justify-content: space-around; 
-    
-     background: linear-gradient(white, black);
-    
-      border-radius: 5px; /* rounded corners */
-      right: calc(50% - 300px);
-      z-index: 1000; /* make sure the menu is on top of other elements */
-    
-        li{display: flex;
-          flex-wrap: wrap; 
-          font-family: Kumar One;
-          justify-content: 
-          space-between;
-          text-align: center;
-          background-color: #C3A3A3;
-          width: 120px;
-          height: 20px;
-          margin: auto;
-          vertical-align: top;
-          justify-content: center;
-          align-items: center;
-          a{color: black;}
-    }}
-  }  
-
-
-
-
-footer{text-align: center; background-color: rgb(63, 63, 63); margin-bottom: 0;}
 
 
 
