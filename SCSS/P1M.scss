@@ -22,87 +22,8 @@ body{margin: 0;
 
   .fields{width: 100%; display: flex; flex-direction: column; align-items: center;
     input{width: 70%; margin-bottom: 30px; border-radius: 30px;}  }}
-  
-  .about_us
-{background: linear-gradient(grey, black);
-  height: 400px;
-  width: 100%;
-h2{text-align: center; font-family: Kumar One; color: white;}
-  p{color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-}
-  .cont{display: flex; align-items: center; padding: 0;
-  }
-  #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 101; font-size: 40px;}
-  #heading{ display: flex; z-index: 100; position: absolute; top: 0; position: fixed;
-transform: translate(-3000px); 
-justify-content: center; 
-transition: all 1s ease-in-out;
-svg{position: static ;background: radial-gradient
-  (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
 
-width: 100%; 
-.floating-menu {
-
-  width: 100%;
-  height: 1000px;
-  margin: auto;
-  padding: 0;
-  display: block; justify-content: center; justify-content: space-around; 
-
-   background: linear-gradient(rgb(37, 37, 37), black);
-  
-    border-radius: 5px; /* rounded corners */
-    right: calc(50% - 300px);
-    z-index: 1000; /* make sure the menu is on top of other elements */
-  
-      li{display: flex;
-        margin: auto;
-        width: 70%;
-        margin-bottom: 50px;
-        margin-top: 10px;
-        font-family: Kumar One;
-        justify-content: 
-        space-between;
-        text-align: center;
-        background-color: #C3A3A3;
-    
-        height: 20px;
-        justify-content: center;
-        align-items: center;
-        a{color: black;}
-      
-  }}
-  
-  }
-}
-
-
-
-.info
-{
-  background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
-  z-index: 10;
-  position: absolute;
-
-  width: 100%;
-
-}
-
-.carousel-slide img {
-  width: 100%;
-  height: 500px;
-}
-.carousel-slide div img{
-  width: 100%;
-
-}
-.carousel-slide div{
-  border: none;
-}
-
-
-
-.galery
+    .galery
 {
   width: 100%;
   height: 700px;
@@ -174,12 +95,80 @@ width: 100%;
   }
 }
 
+  
+  .about_us
+{background: linear-gradient(grey, black);
+  height: 400px;
+  width: 100%;
+h2{text-align: center; font-family: Kumar One; color: white;}
+  p{color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+}
+  .cont{display: flex; align-items: center; padding: 0;
+  }
+  #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 101; font-size: 40px;}
+  #heading{ display: flex; z-index: 100; position: absolute; top: 0; position: fixed;
+transform: translate(-3000px); 
+justify-content: center; 
+transition: all 1s ease-in-out;
+svg{position: static ;background: radial-gradient
+  (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
 
+width: 100%; 
+.floating-menu {
+
+  width: 100%;
+  height: 1000px;
+  margin: auto;
+  padding: 0;
+  display: block; justify-content: center; justify-content: space-around; 
+
+   background: linear-gradient(rgb(37, 37, 37), black);
+  
+    border-radius: 5px; /* rounded corners */
+    right: calc(50% - 300px);
+    z-index: 1000; /* make sure the menu is on top of other elements */
+  
+      li{display: flex;
+        margin: auto;
+        width: 70%;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        font-family: Kumar One;
+        justify-content: 
+        space-between;
+        text-align: center;
+        background-color: #C3A3A3;
+    
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+        a{color: black;}
+      
+  }}
+  
+  }
+}
+
+
+
+
+.carousel-slide {.info
+  {
+    background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
+    z-index: 10;
+    position: absolute;
+  
+    width: 100%;
+  }
+  img {
+  width: 100%;
+  height: 650px;
+}
+div { width: 100%;
+  border: none;
+  img{  width: 100%;}}}
 
 h1{text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border-top: white solid 1px; border-bottom: white solid 1px; color: white}
-
-
-
 
 #moviesContainer
 {
