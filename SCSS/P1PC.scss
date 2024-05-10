@@ -55,7 +55,7 @@ body{margin: 0;
     .galery
     {z-index: 1;
       width: 100%;
-      height: 700px;
+      height: 800px;
       #next-slide-button{
         transition: all 0.2s ease-out;
         margin-top: 200px;
@@ -103,7 +103,7 @@ body{margin: 0;
         width: 100%;
         border: none;
         aspect-ratio: 10 / 3;
-        height: 700px;
+        height: 800px;
       position: absolute; /* Добавляем абсолютное позиционирование */
         div{.carousel-slide{width: 100%;}}
         .carousel-slide {
@@ -111,12 +111,22 @@ body{margin: 0;
           background-color: white;
           flex: 0 0 100%;
           width: 100%;
+ 
           color: white;
           transition: transform 0.5s ease-in-out;
           position: absolute; /* Добавляем абсолютное позиционирование */
           left: 0; /* Устанавливаем начальное положение */
-          .info{height: 160px; bottom: 0;  a{background-color: black; width: 500px;border: 4px solid red; color: white;border-radius: 90px; font-family: Kumar One;}}
-          img{top: 0; width: 100%;} 
+          .info{height: 160px; 
+            width: 100%;
+            padding-left: 80px;
+            z-index: 10;
+            position: absolute;
+            background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
+            bottom: 0; a{background-color: black; width: 500px;
+              border: 4px solid red; color: white;
+              border-radius: 90px; font-family: Kumar One;}}
+
+          img{top: 0; width: 100%; height: 800px;} 
         }
       }
     }
@@ -154,7 +164,7 @@ svg{width: 160px; height: 50px; position: static ;display: block; margin: auto;}
     bottom: 0;
     width: 100%;
     height: 100px;
-    padding-left: 300px;
+    padding-left: 80px;
   }
   img {
   width: 100%;
