@@ -124,9 +124,15 @@ body{margin: 0;
             background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
             bottom: 0; a{background-color: black; width: 500px;
               border: 4px solid red; color: white;
-              border-radius: 90px; font-family: Kumar One;}}
-
-          img{top: 0; width: 100%; height: 800px;} 
+              border-radius: 90px; font-family: Kumar One;}
+              img {
+                width: 100%;
+              
+              }
+              div { width: 100%;
+                border: none;
+                img{  width: 100%;}}}
+            }
         }
       }
     }
@@ -148,7 +154,7 @@ body{margin: 0;
   .cont{display: flex; align-items: center; padding: 0;
   }
   .nothing{width: 100%; display: flex; justify-content: center; align-items: center;font-size: 80px; color: white;}
-}
+
 #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
 .identify{display: none;}
 
@@ -156,23 +162,6 @@ svg{width: 160px; height: 50px; position: static ;display: block; margin: auto;}
 
 
 
-.carousel-slide {.info
-  {
-    background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(255, 255, 255, 0.425));
-    z-index: 10;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    padding-left: 80px;
-  }
-  img {
-  width: 100%;
-  height: 650px;
-}
-div { width: 100%;
-  border: none;
-  img{  width: 100%;}}}
 
 
 .about_us
