@@ -62,7 +62,7 @@ width: 100%;
     .galery
 {
   width: 100%;
-  height: 700px;
+  height: 400px;
   #next-slide-button{
     transition: all 0.2s ease-out;
     margin-top: 200px;
@@ -126,7 +126,7 @@ width: 100%;
       position: absolute; /* Добавляем абсолютное позиционирование */
       left: 0; /* Устанавливаем начальное положение */
       .info{height: 200px; bottom: 0; padding-left: 50px; a{background-color: black; width: 500px;border: 4px solid red; color: white;border-radius: 90px; font-family: Kumar One;}}
-      img{top: 0;} 
+      img{top: 0; height: 400px;} 
     }
   }
 }

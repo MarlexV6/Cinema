@@ -122,7 +122,7 @@ body .registration .fields input {
 }
 body .galery {
   width: 100%;
-  height: 700px;
+  height: 400px;
 }
 body .galery #next-slide-button {
   transition: all 0.2s ease-out;
@@ -196,6 +196,7 @@ body .galery .carousel .carousel-slide .info a {
 }
 body .galery .carousel .carousel-slide img {
   top: 0;
+  height: 400px;
 }
 body .about_us {
   background: linear-gradient(grey, black);
