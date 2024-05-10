@@ -126,14 +126,14 @@ body .galery {
 }
 body .galery #next-slide-button {
   transition: all 0.2s ease-out;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-right: 50px;
   right: 0;
   z-index: 99;
 }
 body .galery #prev-slide-button {
   transition: all 0.2s ease-out;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 50px;
   z-index: 99;
 }
@@ -182,7 +182,7 @@ body .galery .carousel .carousel-slide {
   left: 0; /* Устанавливаем начальное положение */
 }
 body .galery .carousel .carousel-slide .info {
-  height: 200px;
+  height: 150px;
   bottom: 0;
   padding-left: 50px;
 }
