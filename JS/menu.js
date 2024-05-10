@@ -1,12 +1,8 @@
-
 const toggle = document.getElementById("quick-menu");
 const element = document.getElementById("heading");
 const field = document.getElementsByName('input');
 var state = false;
-
-
 toggle.addEventListener("click", () => {
-
 if(state === false)
   {  
     element.style.transform = "translateX(0px)";
