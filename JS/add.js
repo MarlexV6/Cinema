@@ -1,5 +1,4 @@
 let items = [];
-
 function loadXML(url) {
     return fetch(url)
         .then(response => response.text())
@@ -56,7 +55,7 @@ function addItemsToDOM(items) {
     });
 }
 document.addEventListener('DOMContentLoaded', function() {
-loadXML('/Cinema/XML/movies.xml')
+loadXML('/Cinema/XML/movies.xml');
 
 addItemsToDOM(items)
 });
