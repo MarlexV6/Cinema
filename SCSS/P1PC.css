@@ -273,7 +273,7 @@ h1 {
   justify-content: space-between;
   transition: transform 0.5s ease-in-out;
   overflow-x: scroll;
-  overflow-y: hide;
+  overflow-y: hidden;
   width: 100%;
 }
 #moviesContainer .movie {

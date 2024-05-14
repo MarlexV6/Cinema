@@ -199,7 +199,8 @@ body #heading .floating-menu li a {
   align-items: start;
   justify-content: space-between;
   transition: transform 0.5s ease-in-out;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 #moviesContainer .movie {
   width: 200px;

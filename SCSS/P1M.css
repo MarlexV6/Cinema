@@ -162,7 +162,8 @@ body .galery .carousel {
   display: inline-block;
   align-items: center;
   flex-wrap: wrap;
-  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
   width: 100%;
   border: none;
   aspect-ratio: 10/3;
