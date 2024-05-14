@@ -272,7 +272,6 @@ body .movie .bib {
   align-items: center;
   font-family: Kumar One;
   gap: 50px;
-  justify-content: space-between;
   background-color: rgb(61, 59, 59);
   box-sizing: padding-box;
 }
