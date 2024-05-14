@@ -46,8 +46,8 @@ body{background-color: #323232; margin: 0;
    }}
   }
    
-  svg{width: 160px; height: 50px; position: static ;background: radial-gradient
-    (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
+  svg{width: 48px; height: 50px; position: fixed ;background: radial-gradient
+    (white, black); display: block; margin: auto; right: calc(50% - 24px); z-index: 9;} 
 
   width: 100%; 
   .floating-menu {

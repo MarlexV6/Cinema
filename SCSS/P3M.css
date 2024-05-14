@@ -17,13 +17,14 @@ body {
   margin: 0;
 }
 body svg {
-  width: 160px;
+  width: 48px;
   height: 50px;
-  position: static;
+  position: fixed;
   background: radial-gradient white, black;
-  border-radius: 90px/50px;
   display: block;
   margin: auto;
+  right: calc(50% - 24px);
+  z-index: 9;
 }
 body #quick-menu {
   position: fixed;

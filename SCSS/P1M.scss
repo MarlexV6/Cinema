@@ -49,7 +49,7 @@ width: 100%;
   }}
 }
   .nothing{width: 100%; display: flex; justify-content: center; align-items: center;font-size: 40px; color: white;}
-  .registration{width: 100%; display: flex; flex-direction: column; align-items: center; h2{color: white;}
+  .registration{width: 100%; display: flex; flex-direction: column; align-items: center; h2{color: white; margin-top: 50px;}
   .buttons{width: 70%; a{
     .entry{float: left; width: 100px; height: 40px; border-radius: 90px; border: 2px solid red;}
     .registr{float: right; width: 100px; height: 40px;border-radius: 90px; border: 2px solid red;}
@@ -220,9 +220,8 @@ h1{text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucid
     
 }
 
-
-svg{width: 160px; height: 50px; position: static ;background: radial-gradient
-  (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
+svg{width: 48px; height: 50px; position: fixed ;background: radial-gradient
+  (white, black); display: block; margin: auto; right: calc(50% - 24px); z-index: 9;} 
 
 footer{text-align: center; background-color: rgb(63, 63, 63); margin-bottom: 0;}
 

@@ -25,9 +25,10 @@ body{background-color: #323232; margin: 0;
   .tickets{border-top: 1px solid white; border-bottom: solid 1px white; padding-bottom: 40px;}
   .more{margin-top: 80px; text-align: center; color: white;}
 
-  svg{width: 160px; height: 50px; position: static ;background: radial-gradient
-    (white, black); border-radius: 90px/50px; display: block; margin: auto;} 
-    
+  svg{width: 48px; height: 50px; position: fixed ;background: radial-gradient
+    (white, black); border-radius: 90px/50px; display: block; margin: auto;  z-index: 9; right: calc(50% - 24px);} 
+
+
     #quick-menu{position: fixed; width: 50px; height: 50px; z-index: 10; font-size: 40px;}
     .identify{display: none;}
   #moviesContainer
