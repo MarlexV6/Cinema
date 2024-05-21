@@ -121,7 +121,7 @@
     <movie>
         <age>12+</age>
         <image>/Cinema/Pictures/Ghost.jpeg</image>
-              <altimage>/Cinema/Pictures/Ghostsjpeg.jpeg</altimage>
+        <altimage>/Cinema/Pictures/Ghostsjpeg.jpeg</altimage>
         <name>Охотники за привидениями: леденящий ужас</name>
         <tags>фантастика, фэнтези, комедия, приключения</tags>
         <description>Семья Спенглеров возвращается в легендарную пожарную часть в Нью-Йорке.</description>
