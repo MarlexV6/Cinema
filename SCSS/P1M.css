@@ -159,6 +159,7 @@ body .galery button {
   cursor: pointer;
 }
 body .galery .carousel {
+  overflow-x: hidden;
   display: inline-block;
   align-items: center;
   flex-wrap: wrap;

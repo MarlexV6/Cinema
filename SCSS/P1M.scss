@@ -105,6 +105,7 @@ width: 100%;
   }
 
   .carousel {
+    overflow-x: hidden;
     display: inline-block;
     align-items: center;
     flex-wrap: wrap;
