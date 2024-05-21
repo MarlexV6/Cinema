@@ -24,7 +24,6 @@ document.querySelector('.dateone').textContent = date1URL;
 document.querySelector('.datetwo').textContent = date2URL;
 document.querySelector('.datethree').textContent = date3URL;
 document.querySelector('.cinema').textContent = cinemaURL;
-console.log(timeURL);
 const itemList = document.querySelector('.trailer');
 const itemDiv = document.createElement('div');
 itemDiv.innerHTML = `<iframe ${trailerURL}></iframe>`;
