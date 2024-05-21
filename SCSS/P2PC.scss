@@ -122,7 +122,7 @@ body{background-color: #323232; margin: 0;
   }  
   footer{text-align: center; background-color: rgb(63, 63, 63); margin-bottom: 0;}  
 .movie
-{       padding-top: 50px;
+{   padding-top: 50px;
     margin: auto;
     display: flex;
     width: 70%;
@@ -139,11 +139,9 @@ body{background-color: #323232; margin: 0;
     .descript{text-align: left; color: white; .description{margin-bottom: 40px;}
     .time{color: grey; font-size: 15px;}
     .tags{color: grey; font-size: 15px;}}}
-
-   
+ 
+      .altimage{width: 100%; height: 800px;} 
 }
 
-.info{height: 160px; bottom: 0; 
-  .altimage{width: 100%; height: 160px;} }
 
 }
